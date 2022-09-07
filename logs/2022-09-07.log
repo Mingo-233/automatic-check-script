@@ -1,0 +1,6 @@
+{
+  message: { name: 'aa', age: 99 },
+  level: 'info',
+  label: 'juejin',
+  timestamp: '2022-09-07 04:26:10.719 PM'
+}
