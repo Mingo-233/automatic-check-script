@@ -4,3 +4,13 @@
   label: 'juejin',
   timestamp: '2022-09-07 04:26:10.719 PM'
 }
+{
+  message: {
+    err_no: 1,
+    err_msg: 'BaseResp Code:2 Message:booklet_shelf.go:79, method=code.byted.org/juejin/booklet_service/handlers.SubmitBookletReadingProgress,errCode=ERROR_NO_PARAM_ERROR err=<nil>',
+    data: null
+  },
+  level: 'info',
+  label: 'juejin',
+  timestamp: '2022-09-07 08:55:32.405 PM'
+}
