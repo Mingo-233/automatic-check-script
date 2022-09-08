@@ -15,14 +15,14 @@ let loginUrl =
 
 // 沾沾喜气
 let touchHappyUrl =
-  "https://api.juejin.cn/growth_api/v1/lottery_lucky/dip_lucky?aid=2608&uuid=7131217957565122084&spider=0";
+  // "https://api.juejin.cn/growth_api/v1/lottery_lucky/dip_lucky?aid=2608&uuid=7131217957565122084&spider=0";
+  "https://api.juejin.cn/growth_api/v1/lottery_lucky/dip_lucky?aid=2608&uuid=7073392340530513442&spider=0";
 // lottery_history_id: "7135665166527512607";add
 // 7136452057275465762
 
 // 沾沾喜气的卡片list
 let happyCardUrl =
   "https://api.juejin.cn/growth_api/v1/lottery_history/global_big?aid=2608&uuid=7073392340530513442&spider=0";
-
 let vipReadTaskUrl =
   "https://api.juejin.cn/booklet_api/v1/reading/submit_progress?aid=2608&uuid=7131217957565122084&spider=0";
 const juejinApi = {
@@ -36,6 +36,7 @@ const juejinApi = {
     return h.post(luckDrawUrl);
   },
   touchHappy(id) {
+    console.log(id);
     return h.post(touchHappyUrl, { lottery_history_id: id });
   },
   getHappyCardList() {

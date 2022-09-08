@@ -5,7 +5,7 @@ const port = 3000;
 const Interval = require("./utils/node-schedule");
 const schedule = require("node-schedule");
 const emailSend = require("./utils/emailSend");
-
+const redisConnectHandle = require("./redis/app");
 const {
   getBookList,
   postSign,
@@ -19,44 +19,35 @@ let a = new Interval({
   maintain_time: "10 1 8 * * *",
   //   last_alarm: "自动分发任务 0 0 12 * * *",
 });
-a.create(async () => {
-  try {
-    const res = await postSign();
-    if (res.err_no && res.err_no !== 0) {
-      throw Error(JSON.stringify(res));
-    }
-    luckDraw();
-    const { data } = await getHappyCardList();
-    touchHappy(data.lotteries[0].history_id);
-  } catch (error) {
-    console.log(error);
-    emailSend(error.message);
-  }
-});
-// // 启动临时任务
-// let rule = new schedule.RecurrenceRule();
-// rule.second = [0, 10, 20, 30, 40, 50]; // 每隔 10 秒执行一次
-
-// let job = schedule.scheduleJob(rule, () => {
+// a.create(async () => {
 //   try {
-//     postSign()
-//       .then((res) => {
-//         console.log(res);
-//         if (res.err_no && res.err_no !== 0) {
-//           throw Error(JSON.stringify(res));
-//         }
-//         // luckDraw();
-//         // touchHappy();
-//       })
-//       .catch((err) => {
-//         console.log(err);
-//         emailSend(err.message);
-//       });
+//     const res = await postSign();
+//     if (res.err_no && res.err_no !== 0) {
+//       throw Error(JSON.stringify(res));
+//     }
+//     luckDraw();
+//     const { data } = await getHappyCardList();
+//     touchHappy(data.lotteries[0].history_id);
 //   } catch (error) {
 //     console.log(error);
 //     emailSend(error.message);
 //   }
 // });
+// // 启动临时任务
+let rule = new schedule.RecurrenceRule();
+rule.second = [0, 10, 20, 30, 40, 50]; // 每隔 10 秒执行一次
+
+let job = schedule.scheduleJob(rule, () => {
+  try {
+    console.log("zhixing");
+    const hh = () => {
+      console.log("hhh");
+    };
+    redisConnectHandle(hh);
+  } catch (error) {
+    console.log(error);
+  }
+});
 app.listen(port, () => {
   console.log(`app is running at http://127.0.0.1:${port}/`);
 });

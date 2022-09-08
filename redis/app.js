@@ -13,10 +13,39 @@ redisClient.on("ready", function (err) {
   console.log("ready");
 });
 // 创建连接，是个 promise
-redisClient.connect(6379, "127.0.0.1").then(async () => {
-  const result = await redisClient.get("name");
+// redisClient.connect(6379, "127.0.0.1").then(async () => {
+//   const accountList = await getAccountList();
+//   console.log(accountList);
+//   // addAccountList('{"name":"mingo","token":"sadkjh"}');
+// });
+const redisConnectHandle = async (callBack) => {
+  await redisClient.connect(6379, "127.0.0.1");
+  // const accountList = await getAccountList();
+  // console.log(accountList);
+  callBack && callBack();
+};
+
+const addAccountList = async (data) => {
+  redisClient
+    .rPush("jjAccountTest", data)
+    .then((res) => {
+      console.log(res);
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+};
+const getAccountList = async () => {
+  const result = await redisClient.lRange("jjAccount", 0, 10);
   console.log(result);
-});
+  let arrList = [];
+  for (const key of result) {
+    console.log(key);
+    arrList.push(JSON.parse(key));
+    //  '{"name":"mingo","token":"sadkjh"}';
+  }
+  return arrList;
+};
 // redisClient.connect(6379, "127.0.0.1").then(() => {
 //   redisClient.set("name", "zhangsan").then((val) => {
 //     console.log(val);
@@ -24,3 +53,4 @@ redisClient.connect(6379, "127.0.0.1").then(async () => {
 // });
 
 // redisClient.quit();
+module.exports = redisConnectHandle;
