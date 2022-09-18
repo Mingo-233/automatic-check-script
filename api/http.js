@@ -50,7 +50,7 @@ class Http {
   post(url, params) {
     return new Promise((resolve, reject) => {
       axios
-        .post(url, JSON.stringify(params))
+        .post(url, params)
         .then((res) => {
           // inputHandler(JSON.stringify(res.data));
           logger.info(res.data);

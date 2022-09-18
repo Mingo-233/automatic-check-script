@@ -23,8 +23,13 @@ let touchHappyUrl =
 // 沾沾喜气的卡片list
 let happyCardUrl =
   "https://api.juejin.cn/growth_api/v1/lottery_history/global_big?aid=2608&uuid=7073392340530513442&spider=0";
-let vipReadTaskUrl =
+let submitReadProgressUrl =
   "https://api.juejin.cn/booklet_api/v1/reading/submit_progress?aid=2608&uuid=7131217957565122084&spider=0";
+let getSectionDetailsUrl =
+  "https://api.juejin.cn/booklet_api/v1/section/get?aid=2608&uuid=7131217957565122084&spider=0";
+
+let bookSectionOfViteUrl =
+  "https://api.juejin.cn/booklet_api/v1/booklet/get?aid=2608&uuid=7131217957565122084&spider=0";
 const juejinApi = {
   getBookList() {
     return h.post(bookListUrl);
@@ -42,12 +47,25 @@ const juejinApi = {
   getHappyCardList() {
     return h.post(happyCardUrl, { page_no: 1, page_size: 5 });
   },
-  postReadTask() {
-    return h.post(vipReadTaskUrl, {
-      booklet_id: "6844733750048210957",
-      reading_position: 0,
-      section_id: "6844733750111109128",
+  // vip 阅读任务
+  postReadTask(id) {
+    // 第一节 7050063812044685343
+    // 第二节 7077834799208988675;
+    // 这个接口原本是拿小测某章节的具体内容，但是在后端有隐藏逻辑：每访问一次会执行，vip的每日阅读任务
+    return h.post(getSectionDetailsUrl, {
+      section_id: id,
     });
+
+    // return h.post(submitReadProgressUrl, {
+    //   booklet_id: "7050063811973218341",
+    //   reading_position: 17,
+    //   section_id: "7077834799208988675",
+    // });
+  },
+  // 获得掘金小册 章节信息
+  getBookSectionOfVite(id = "7050063811973218341") {
+    //深入浅出vite 小册 id 7050063811973218341;
+    return h.post(bookSectionOfViteUrl, { booklet_id: id });
   },
 };
 
