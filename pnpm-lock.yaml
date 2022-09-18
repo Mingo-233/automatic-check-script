@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   axios: ^0.27.2
   cors: ^2.8.5
+  dotenv: ^16.0.2
   express: ^4.17.1
   node-schedule: ^2.1.0
   nodemailer: ^6.7.8
@@ -16,6 +17,7 @@ dependencies:
   redis: 4.3.1
 
 devDependencies:
+  dotenv: 16.0.2
   express: 4.18.1
   node-schedule: 2.1.0
   nodemailer: 6.7.8
@@ -263,6 +265,11 @@ packages:
   /destroy/1.2.0:
     resolution: {integrity: sha512-2sJGJTaXIIaR1w4iJSNoN0hnMY7Gpc/n8D4qSCJw8QqFWXf7cuAgnEHxBpweaVcPevC2l3KpjYCx3NypQQgaJg==}
     engines: {node: '>= 0.8', npm: 1.2.8000 || >= 1.4.16}
+    dev: true
+
+  /dotenv/16.0.2:
+    resolution: {integrity: sha512-JvpYKUmzQhYoIFgK2MOnF3bciIZoItIIoryihy0rIA+H4Jy0FmgyKYAHCTN98P5ybGSJcIFbh6QKeJdtZd1qhA==}
+    engines: {node: '>=12'}
     dev: true
 
   /ee-first/1.1.1:

@@ -1,7 +1,8 @@
 // 任务方法 （需要调用组合api共同完成，存在接口先后顺序）
 
-const { postReadTask, getBookSectionOfVite } = require("../api/juejinApi");
-
+const { initHttpAxios, juejinApi } = require("../api/juejinApi");
+initHttpAxios();
+const { postReadTask, getBookSectionOfVite } = juejinApi;
 const taskMethods = {
   vipReadTask() {
     getBookSectionOfVite()

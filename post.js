@@ -1,5 +1,7 @@
 const { getUserInfoApi, postCollectionsApi } = require("./api/bxhApi.js");
 // const { getBookListApi, postSignApi } = require("./api/juejinApiOld");
+const { initHttpAxios, juejinApi } = require("./api/juejinApi");
+initHttpAxios();
 const {
   getBookList,
   postSign,
@@ -7,8 +9,7 @@ const {
   getHappyCardList,
   postReadTask,
   getBookSectionOfVite,
-} = require("./api/juejinApi");
-
+} = juejinApi;
 // https://www.baoxiaohe.com/api/design/search/popular
 
 let url1 = "https://r4.baoxiaohe.fun/api/design/users/check";
@@ -17,18 +18,18 @@ let url2 = "https://r4.baoxiaohe.fun/api/design/collections";
 
 // postCollectionsApi(url2);
 
-// getHappyCardList()
-//   .then((res) => {
-//     const { data } = res;
-//     console.log(res);
+getHappyCardList()
+  .then((res) => {
+    const { data } = res;
+    console.log(res);
 
-//     touchHappy(data.lotteries[0].history_id).then((res) => {
-//       console.log(res);
-//     });
-//   })
-//   .catch((err) => {
-//     console.log(err);
-//   });
+    touchHappy(data.lotteries[0].history_id).then((res) => {
+      console.log(res);
+    });
+  })
+  .catch((err) => {
+    console.log(err);
+  });
 
 // postReadTask();
 

@@ -6,20 +6,12 @@ const Interval = require("./utils/node-schedule");
 const schedule = require("node-schedule");
 const emailSend = require("./utils/emailSend");
 const redisConnectHandle = require("./redis/app");
-const {
-  getBookList,
-  postSign,
-  luckDraw,
-  getHappyCardList,
-  touchHappy,
-} = require("./api/juejinApi");
-const { vipReadTask } = require("./task/index");
+const { initHttpAxios, juejinApi } = require("./api/juejinApi");
+const { getBookList, postSign, luckDraw, getHappyCardList, touchHappy } =
+  juejinApi;
 
-let mainSchedule = new Interval({
-  unit_name: "科教兴国定时任务",
-  maintain_time: "10 1 8 * * *", //每天八点执行
-});
-mainSchedule.create(async () => {
+const { vipReadTask } = require("./task/index");
+const doTaskHandle = async (isVip) => {
   try {
     // 签到
     const res = await postSign();
@@ -31,10 +23,28 @@ mainSchedule.create(async () => {
     const { data } = await getHappyCardList();
     // 抽幸运卡
     touchHappy(data.lotteries[0].history_id);
-    vipReadTask();
+    isVip && vipReadTask();
   } catch (error) {
     console.log(error);
     emailSend(error.message);
+  }
+};
+
+let mainSchedule = new Interval({
+  unit_name: "科教兴国定时任务",
+  maintain_time: "10 1 8 * * *", //每天八点执行
+});
+mainSchedule.create(async () => {
+  try {
+    const doTask = async (accountList) => {
+      for (let i = 0; i < accountList.length; i++) {
+        initHttpAxios(accountList[i].token);
+        await doTaskHandle(accountList[i].vip);
+      }
+    };
+    redisConnectHandle(doTask);
+  } catch (error) {
+    console.log(error);
   }
 });
 
@@ -44,10 +54,14 @@ mainSchedule.create(async () => {
 
 // let job = schedule.scheduleJob(rule, () => {
 //   try {
-//     const hh = (accountList) => {
+//     const doTask = async (accountList) => {
 //       console.log(accountList[0].name);
+//       for (let i = 0; i < accountList.length; i++) {
+//         initHttpAxios(accountList[i].token);
+//         await doTaskHandle();
+//       }
 //     };
-//     redisConnectHandle(hh);
+//     redisConnectHandle(doTask);
 //   } catch (error) {
 //     console.log(error);
 //   }
