@@ -38,15 +38,14 @@ mainSchedule.create(async () => {
   }
 });
 
-// // 启动临时任务
+// 启动临时任务
 // let rule = new schedule.RecurrenceRule();
 // rule.second = [0, 10, 20, 30, 40, 50]; // 每隔 10 秒执行一次
 
 // let job = schedule.scheduleJob(rule, () => {
 //   try {
-//     console.log("zhixing");
-//     const hh = () => {
-//       console.log("hhh");
+//     const hh = (accountList) => {
+//       console.log(accountList[0].name);
 //     };
 //     redisConnectHandle(hh);
 //   } catch (error) {

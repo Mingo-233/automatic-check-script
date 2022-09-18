@@ -20,9 +20,8 @@ redisClient.on("ready", function (err) {
 // });
 const redisConnectHandle = async (callBack) => {
   await redisClient.connect(6379, "127.0.0.1");
-  // const accountList = await getAccountList();
-  // console.log(accountList);
-  callBack && callBack();
+  const accountList = await getAccountList();
+  callBack && callBack(accountList);
 };
 
 const addAccountList = async (data) => {
@@ -37,10 +36,8 @@ const addAccountList = async (data) => {
 };
 const getAccountList = async () => {
   const result = await redisClient.lRange("jjAccount", 0, 10);
-  console.log(result);
   let arrList = [];
   for (const key of result) {
-    console.log(key);
     arrList.push(JSON.parse(key));
     //  '{"name":"mingo","token":"sadkjh"}';
   }
@@ -53,4 +50,5 @@ const getAccountList = async () => {
 // });
 
 // redisClient.quit();
+// redisConnectHandle();
 module.exports = redisConnectHandle;
