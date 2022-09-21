@@ -1,9 +1,7 @@
 const redis = require("redis"); // 引入 redis
 const dotenv = require("dotenv");
 dotenv.config();
-const redisClient = redis.createClient(6379, "127.0.0.1", {
-  auth_pass: process.env.PASSWORD,
-}); // 创建客户端
+const redisClient = redis.createClient(6379, "127.0.0.1"); // 创建客户端
 
 // 监听错误信息
 redisClient.on("err", (err) => {
@@ -13,20 +11,14 @@ redisClient.on("err", (err) => {
 redisClient.on("ready", function (err) {
   console.log("ready");
 });
-// 创建连接，是个 promise
-// redisClient
-//   .connect(6379, "127.0.0.1", {
-//     auth_pass: process.env.PASSWORD,
-//   })
-//   .then(async () => {
-//     const accountList = await getAccountList();
-//     console.log(accountList);
-//     // addAccountList('{"name":"mingo","token":"sadkjh"}');
-//   });
+
+const isRequiredPassword = process.env.authPass !== "YES";
 const redisConnectHandle = async (callBack) => {
-  await redisClient.connect(6379, "127.0.0.1", {
-    auth_pass: process.env.PASSWORD,
-  });
+  const option = {};
+  if (isRequiredPassword) {
+    option.auth_pass = process.env.PASSWORD;
+  }
+  await redisClient.connect(6379, "127.0.0.1", option);
   const accountList = await getAccountList();
   callBack && callBack(accountList);
 };
@@ -50,11 +42,6 @@ const getAccountList = async () => {
   }
   return arrList;
 };
-// redisClient.connect(6379, "127.0.0.1").then(() => {
-//   redisClient.set("name", "zhangsan").then((val) => {
-//     console.log(val);
-//   });
-// });
 
 // redisClient.quit();
 // redisConnectHandle();
