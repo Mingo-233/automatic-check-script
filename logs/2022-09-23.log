@@ -1,0 +1,3370 @@
+{
+  message: {
+    err_no: 0,
+    err_msg: 'success',
+    data: {
+      booklet: {
+        booklet_id: '7050063811973218341',
+        base_info: {
+          id: 0,
+          booklet_id: '7050063811973218341',
+          title: '深入浅出 Vite',
+          price: 4990,
+          category_id: '6809637767543259144',
+          status: 1,
+          user_id: '430664257382462',
+          verify_status: 4,
+          summary: '系统化学习现代构建工具 Vite，提升前端工程化能力',
+          cover_img: 'https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8cb255da618249d0857e6ecfc5017340~tplv-k3u1fbpfcp-watermark.image?',
+          section_count: 28,
+          section_ids: '7050063811994189855|7050063812044685343|7077834799208988675|7053634868994899975|7057872229589057576|7058853948060336163|7058854154738860066|7058947037877764137|7060398408430780431|7060405118163746850|7061788120680759331|7061854307863232547|7065976180125466638|7065976180020609032|7066601785166659620|7066611951547187214|7066612265536978981|7068105121523531806|7068105121615314952|7066612739912761352|7066614740574797832|7066617580068274207|7066617652487127077|7066617769776644126|7066613178028785700|7066613452235603982|7066614663533821983|7070419010021490702|7120588458145349640',
+          is_finished: 1,
+          ctime: 1642386948,
+          mtime: 1663056711,
+          put_on_time: 1649235586,
+          pull_off_time: -62135596800,
+          finished_time: -62135596800,
+          recycle_bin_time: -62135596800,
+          verify_time: -62135596800,
+          submit_time: 1663056711,
+          top_time: 1649235611,
+          wechat_group_img: 'https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/876f8a0a3e914e9fb741641d63f8f928~tplv-k3u1fbpfcp-watermark.image?',
+          wechat_group_desc: '',
+          wechat_group_signal: 'Vite406',
+          read_time: 72858,
+          buy_count: 3052,
+          course_type: 1,
+          background_img: 'https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4f0be63544f24e5da59ced8854807b3d~tplv-k3u1fbpfcp-watermark.image?',
+          is_distribution: 1,
+          distribution_img: 'https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1eaed56ad91747119f006f425e408ee2~tplv-k3u1fbpfcp-zoom-1.image?',
+          commission: 998,
+          can_vip_borrow: false
+        },
+        user_info: {
+          user_id: '430664257382462',
+          user_name: '神三元',
+          company: '字节跳动',
+          job_title: '公众号 「三元同学」',
+          avatar_large: 'https://p9-passport.byteacctimg.com/img/user-avatar/d43ef01b284d645d6d7ab02c8dc32aaa~300x300.image',
+          level: 7,
+          description: '掘金小册《深入浅出 Vite》、《React Hooks 与 Immutable 数据流实战》作者，目前就职于字节跳动前端架构团队',
+          followee_count: 77,
+          follower_count: 33887,
+          post_article_count: 50,
+          digg_article_count: 451,
+          got_digg_count: 32402,
+          got_view_count: 1626549,
+          post_shortmsg_count: 36,
+          digg_shortmsg_count: 30,
+          isfollowed: false,
+          favorable_author: 1,
+          power: 97738,
+          study_point: 0,
+          university: { university_id: '0', name: '', logo: '' },
+          major: { major_id: '0', parent_id: '0', name: '' },
+          student_status: 0,
+          select_event_count: 0,
+          select_online_course_count: 0,
+          identity: 0,
+          is_select_annual: true,
+          select_annual_rank: 0,
+          annual_list_type: 0,
+          extraMap: {},
+          is_logout: 0,
+          annual_info: [],
+          account_amount: 0,
+          user_growth_info: {
+            user_id: 430664257382462,
+            jpower: 97738,
+            jscore: 1620.8,
+            jpower_level: 7,
+            jscore_level: 5,
+            jscore_title: '先锋掘友',
+            author_achievement_list: [ 1 ],
+            vip_level: 0,
+            vip_title: '',
+            jscore_next_level_score: 4656510908468560000
+          },
+          is_vip: false
+        },
+        is_buy: true,
+        reading_progress: {
+          id: 0,
+          booklet_id: '7050063811973218341',
+          user_id: '3289337926283534',
+          status: 1,
+          buy_type: 1,
+          reading_end: 0,
+          reading_progress: 79,
+          last_section_id: '7058947037877764137',
+          has_update: 1,
+          last_rtime: 1663903671,
+          ctime: 1656157385,
+          mtime: 1663903741,
+          valid_begin_time: 0,
+          valid_end_time: 0,
+          borrow_times: 0
+        },
+        section_updated_count: 28,
+        is_new: false
+      },
+      introduction: {
+        id: 85821,
+        section_id: '7050063811994189855',
+        title: '小册介绍',
+        user_id: '430664257382462',
+        booklet_id: '7050063811973218341',
+        status: 1,
+        content: '<h2>你将获得</h2>\n' +
+          '<ul>\n' +
+          '<li>\n' +
+          '<p>5 大模块，详细梳理构建工具实战要点</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p>深入底层，彻底搞懂 Vite 原理与实现</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p>真实场景，攻克工程实践中的核心问题</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p>从 0 到 1，手把手教你实现构建引擎</p>\n' +
+          '</li>\n' +
+          '</ul>\n' +
+          '<h2>作者介绍</h2>\n' +
+          '<p><img src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8bb5087ddc334879a84ba032696ad185~tplv-k3u1fbpfcp-watermark.image?" alt="20220323稀土掘金-「小册」《深入浅出 Vite 》视觉延展 - 改1_作者简介.jpg"></p>\n' +
+          '<p>目前深耕前端工程化构建领域，拥有大量的 Vite 工程化实战和性能优化经验，曾将 Vite 落地到抖音直播 PC 端等公司大型业务中，也是 Vite Contributor。</p>\n' +
+          '<h2>小册介绍</h2>\n' +
+          '<p><img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cde068a9356b4b53b53bf8a7199888ea~tplv-k3u1fbpfcp-watermark.image?" alt="课程介绍(1624x623).png"></p>\n' +
+          '<p>随着前端技术的发展，构建工具所做的事情早已不仅仅是<code>打包代码</code> 那么简单，如今它已经贯穿了前端项目的整个生命周期，在前端工程化中占据了越来越核心的位置。而由于前端项目规模的日益庞大，传统的构建工具已经无法满足开发者们对 DX(Developer Experience，即开发者体验) 的要求。在使用传统工具的过程中，我们经常会遇到这样的问题:</p>\n' +
+          '<ul>\n' +
+          '<li>\n' +
+          '<p><strong>漫长的项目启动时间</strong>。作为开发者，经常要等待几分钟的时间才能看到项目启动完成。</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p><strong>漫长的热更新时间</strong>。热更新要花费数秒的时间，代码改动后反馈非常迟钝，而且随着项目规模越来越大，热更新也越来越慢。</p>\n' +
+          '</li>\n' +
+          '</ul>\n' +
+          '<p>为了解决上述的问题，Vite 在一系列方案中脱颖而出。相比于传统的构建工具，Vite 项目启动时间能缩短 90% 以上，热更新能得到毫秒级的响应，给构建性能带来了一个量级的提升，极大地解决了大家的开发体验痛点。而回看社区，最近的 JavaScript 生态的年度调查结果也显示，Vite 的开发满意度超过 98%，成为整个前端社区中最受瞩目的技术。</p>\n' +
+          '<p>因此，如果你现在要学习构建工具，Vite 将会是一个更好的选择。但很多人在学习和应用 Vite 的过程中总会遇到下面的问题:</p>\n' +
+          '<ul>\n' +
+          '<li>\n' +
+          '<p>缺少系统化的学习资料，社区中绝大多数的文章仅仅只是教会你如何搭建一个简单的脚手架项目，不够系统和深入</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p>不了解 Vite 相关的生态，遇到问题的时候不知道使用哪些插件或者解决方案</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p>不熟悉 Esbuild、Rollup 这些底层构建引擎，遇到一些稍微需要定制的场景就感到捉襟见肘</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p>不知道如何将 Vite 和其它前端工具结合，如 <code>Babel</code>、<code>core-js</code></p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p>构建工具源码晦涩难懂，对更深一步的原理学习望而却步</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p>......</p>\n' +
+          '</li>\n' +
+          '</ul>\n' +
+          '<p>在本课程中，我会给大家系统梳理 Vite 知识，并解决如上种种问题，带大家了解到前端工程的构建中究竟具备哪些知识和技能，不光是 Vite 本身的知识，也包括 Vite 底层所使用的 Esbuild、Rollup 双引擎、Babel 编译工具链、模块规范标准等一系列构建生态，从此掌握前端构建领域的第一性原理，完成从构建小白到高手的蜕变。</p>\n' +
+          '<p>在本课程中，我分了五个部分来系统讲述:</p>\n' +
+          '<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/94af3f775bd64fbaaaf71d7555f2311d~tplv-k3u1fbpfcp-watermark.image?" alt="深入浅出 Vite (2).png"></p>\n' +
+          '<ol>\n' +
+          '<li>\n' +
+          '<p><strong>基础使用篇。</strong> 重新认识构建工具本身的价值，学会 Vite 基本的功能使用，让你能够独立搭建一个相对完整的脚手架项目。</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p><strong>双引擎篇。</strong> 这个部分我会给你详细介绍 Vite 的双引擎架构，并带你系统学习 Esbuild 和 Rollup 相关的内容，掌握<code>最小必要知识</code>，为后续的高级应用作铺垫。</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p><strong>高级应用篇。</strong> 你将学习到 Vite 的各种高级用法和构建性能优化手段，全程高能实战，每一节都有具体可运行的示例项目。</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p><strong>源码精读篇。</strong> 在这个部分我们将剖析 Vite 的核心源码，理解诸如<code>JIT</code>、<code>Proxy Module</code>、<code>Module Graph</code>、<code>HMR Boundary</code>、<code>Plugin Container</code> 等源码中重要概念的作用及其底层实现。</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p><strong>手写实战篇。</strong> 一方面我们会手写 Vite 的开发时 no-bundle 服务，另一方面也会带你一步步完成一个生产环境打包工具(Bundler)，从 AST 解析的功能开始，最终实现一个 Bundler。</p>\n' +
+          '</li>\n' +
+          '</ol>\n' +
+          '<p>小册最大的特点就是基于实战，理论固然重要，但更重要的是上手实操，几乎所有的知识点你都能找到对应的示例实现代码，在课程的最后一章甚至会手把手教你写一个构建引擎。正如这句话所说:</p>\n' +
+          '<blockquote>\n' +
+          '<p>Talk is cheap， show me your code.</p>\n' +
+          '</blockquote>\n' +
+          '<p>希望这本小册能够降低你学习构建工具的门槛，带你真正完成从入门到进阶的过程。虽然本小册并不能解决所有的问题，但我在小册中分享的个人学习经验，以及面对问题时的思维方式或许给你带来一些启发。</p>\n' +
+          '<p>祝学习愉快，我们小册中见！</p>\n' +
+          '<h2>你会学到什么？</h2>\n' +
+          '<ul>\n' +
+          '<li>\n' +
+          '<p>熟练掌握 Vite 的使用，<code>独立搭建</code>完整的前端工程环境以及工作流；</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p>学会 Vite <code>插件开发</code>及项目<code>性能优化</code>技巧，独立解决 Vite 使用过程中的核心难题；</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p>深入掌握 Vite 底层用到的打包工具 <code>Esbuild</code> 和 <code>Rollup</code>，学会核心的打包配置和插件开发姿势；</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p>彻底理解 Vite 实现原理，学会 Vite 背后的优秀<code>架构思想</code>和<code>核心实现</code>；</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p>从 0 到 1 手写构建工具，掌握前端构建工具的原理。</p>\n' +
+          '</li>\n' +
+          '</ul>\n' +
+          '<h2>适宜人群</h2>\n' +
+          '<ul>\n' +
+          '<li>想要系统学习 Vite，提升竞争力，但没有接触过，也缺少项目经历</li>\n' +
+          '<li>想通过 Vite 作为团队或者个人项目的技术栈，但对 Vite 的核心概念和进阶用法一知半解</li>\n' +
+          '<li>想系统化学习 Rollup 和 Esbuild，理解构建工具的底层原理及源码实现，苦于学习门槛高</li>\n' +
+          '</ul>\n' +
+          '<h2>购买须知</h2>\n' +
+          '<ol>\n' +
+          '<li>本小册为图文形式虚拟内容服务，购买成功概不退款；</li>\n' +
+          '<li>小册于 2022 年 04 月 06 日上线，全部章节现已完成更新；</li>\n' +
+          '<li>购买用户可享有永久阅读权限，可进入小册微信群，与作者互动；</li>\n' +
+          '<li>掘金小册版权归北京北比信息技术有限公司所有，任何机构、媒体、网站或个人未经本网协议授权不得转载、链接、转贴或以其他方式复制发布/发表，违者将依法追究责任；</li>\n' +
+          '<li>在掘金小册阅读过程中，如有任何问题，请邮件联系 <a href="mailto:xiaoce@xitu.io">xiaoce@xitu.io</a></li>\n' +
+          '</ol>',
+        draft_content: '',
+        draft_title: '小册介绍',
+        markdown_content: '',
+        markdown_show: '',
+        is_free: 0,
+        read_time: 320,
+        read_count: 0,
+        comment_count: 0,
+        ctime: 1641716764,
+        mtime: 1641716764,
+        is_update: 0,
+        draft_read_time: 0,
+        vid: '',
+        reading_progress: null
+      },
+      sections: [
+        {
+          id: 85822,
+          section_id: '7050063812044685343',
+          title: '开篇 ：让 Vite 助力你的前端工程化之路',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '开篇 ：让 Vite 助力你的前端工程化之路',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 1,
+          read_time: 510,
+          read_count: 13726,
+          comment_count: 54,
+          ctime: 1641716764,
+          mtime: 1641716764,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7050063812044685343',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 17,
+            has_update: 1,
+            last_rtime: 1663481186,
+            ctime: 1656236051,
+            mtime: 1663811599
+          }
+        },
+        {
+          id: 86674,
+          section_id: '7077834799208988675',
+          title: '模块标准：为什么 ESM 是前端模块化的未来？',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '模块标准：为什么 ESM 是前端模块化的未来？',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 1988,
+          read_count: 8505,
+          comment_count: 37,
+          ctime: 1648023179,
+          mtime: 1648023179,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7077834799208988675',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1663682749,
+            ctime: 1656247440,
+            mtime: 1663811600
+          }
+        },
+        {
+          id: 85932,
+          section_id: '7053634868994899975',
+          title: '快速上手: 如何用 Vite 从零搭建前端项目？',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '快速上手: 如何用 Vite 从零搭建前端项目？',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 1229,
+          read_count: 8665,
+          comment_count: 61,
+          ctime: 1642328835,
+          mtime: 1642328835,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7053634868994899975',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1663682750,
+            ctime: 1656247440,
+            mtime: 1663811599
+          }
+        },
+        {
+          id: 86098,
+          section_id: '7057872229589057576',
+          title: '样式方案：在 Vite 中接入现代化的 CSS 工程化方案',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '样式方案：在 Vite 中接入现代化的 CSS 工程化方案',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 2084,
+          read_count: 8267,
+          comment_count: 84,
+          ctime: 1643517556,
+          mtime: 1643517556,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7057872229589057576',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1663414496,
+            ctime: 1656249641,
+            mtime: 1663811600
+          }
+        },
+        {
+          id: 86100,
+          section_id: '7058853948060336163',
+          title: '代码规范: 如何利用 Lint 工具链来保证代码风格和质量？',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '代码规范: 如何利用 Lint 工具链来保证代码风格和质量？',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 2201,
+          read_count: 7758,
+          comment_count: 94,
+          ctime: 1643539182,
+          mtime: 1643539182,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7058853948060336163',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1663414496,
+            ctime: 1656249660,
+            mtime: 1663811599
+          }
+        },
+        {
+          id: 86101,
+          section_id: '7058854154738860066',
+          title: '静态资源: 如何在 Vite 中处理各种静态资源？',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '静态资源: 如何在 Vite 中处理各种静态资源？',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 1,
+          read_time: 2547,
+          read_count: 8740,
+          comment_count: 60,
+          ctime: 1643634078,
+          mtime: 1643634078,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7058854154738860066',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1663414497,
+            ctime: 1656467574,
+            mtime: 1663811599
+          }
+        },
+        {
+          id: 86102,
+          section_id: '7058947037877764137',
+          title: '预构建: 如何玩转秒级依赖预构建的能力？',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '预构建: 如何玩转秒级依赖预构建的能力？',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 1265,
+          read_count: 6001,
+          comment_count: 63,
+          ctime: 1643727625,
+          mtime: 1643727625,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7058947037877764137',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 6,
+            has_update: 1,
+            last_rtime: 1663903671,
+            ctime: 1656668570,
+            mtime: 1663903655
+          }
+        },
+        {
+          id: 86113,
+          section_id: '7060398408430780431',
+          title: '双引擎架构: Vite 是如何站在巨人的肩膀上实现的？',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '双引擎架构: Vite 是如何站在巨人的肩膀上实现的？',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 799,
+          read_count: 4956,
+          comment_count: 38,
+          ctime: 1643878668,
+          mtime: 1643878668,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7060398408430780431',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1663682752,
+            ctime: 1656854321,
+            mtime: 1663682750
+          }
+        },
+        {
+          id: 86117,
+          section_id: '7060405118163746850',
+          title: '得力的性能推手: Esbuild 功能使用与插件开发实战',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '得力的性能推手: Esbuild 功能使用与插件开发实战',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 3199,
+          read_count: 5287,
+          comment_count: 51,
+          ctime: 1644047375,
+          mtime: 1644047375,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7060405118163746850',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1663682755,
+            ctime: 1656856344,
+            mtime: 1663682752
+          }
+        },
+        {
+          id: 86128,
+          section_id: '7061788120680759331',
+          title: 'Vite 构建基石(上)——Rollup 打包基本概念及使用',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: 'Vite 构建基石(上)——Rollup 打包基本概念及使用',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 1853,
+          read_count: 4338,
+          comment_count: 15,
+          ctime: 1644216084,
+          mtime: 1644216084,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7061788120680759331',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1663297717,
+            ctime: 1656856661,
+            mtime: 1663297715
+          }
+        },
+        {
+          id: 86129,
+          section_id: '7061854307863232547',
+          title: 'Vite 构建基石(下)——深入理解 Rollup 的插件机制',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: 'Vite 构建基石(下)——深入理解 Rollup 的插件机制',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 2368,
+          read_count: 4139,
+          comment_count: 26,
+          ctime: 1644221068,
+          mtime: 1644221068,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7061854307863232547',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1663297721,
+            ctime: 1656925341,
+            mtime: 1663295587
+          }
+        },
+        {
+          id: 86299,
+          section_id: '7065976180125466638',
+          title: '插件开发与实战: 如何开发一个完整的 Vite 插件？',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '插件开发与实战: 如何开发一个完整的 Vite 插件？',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 2912,
+          read_count: 3731,
+          comment_count: 30,
+          ctime: 1645323809,
+          mtime: 1645323809,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7065976180125466638',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1663297724,
+            ctime: 1656990961,
+            mtime: 1663297721
+          }
+        },
+        {
+          id: 86298,
+          section_id: '7065976180020609032',
+          title: 'HMR API 及原理：代码改动后，如何进行毫秒级别的局部更新？',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: 'HMR API 及原理：代码改动后，如何进行毫秒级别的局部更新？',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 1,
+          read_time: 1897,
+          read_count: 3660,
+          comment_count: 19,
+          ctime: 1645321442,
+          mtime: 1645321442,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7065976180020609032',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1658124913,
+            ctime: 1656990965,
+            mtime: 1658122644
+          }
+        },
+        {
+          id: 86300,
+          section_id: '7066601785166659620',
+          title: '代码分割：打包完产物体积太大，怎么拆包？',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '代码分割：打包完产物体积太大，怎么拆包？',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 2005,
+          read_count: 3075,
+          comment_count: 30,
+          ctime: 1645323882,
+          mtime: 1645323882,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7066601785166659620',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 57,
+            has_update: 1,
+            last_rtime: 1663307890,
+            ctime: 1656852612,
+            mtime: 1663297724
+          }
+        },
+        {
+          id: 86301,
+          section_id: '7066611951547187214',
+          title: '语法降级与Polyfill：联合前端编译工具链，消灭低版本浏览器兼容问题',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '语法降级与Polyfill：联合前端编译工具链，消灭低版本浏览器兼容问题',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 1,
+          read_time: 2221,
+          read_count: 3207,
+          comment_count: 38,
+          ctime: 1645323993,
+          mtime: 1645323993,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7066611951547187214',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1658212839,
+            ctime: 1657010153,
+            mtime: 1658212830
+          }
+        },
+        {
+          id: 86302,
+          section_id: '7066612265536978981',
+          title: ' 预渲染：如何借助 Vite 搭建高可用的服务端渲染(SSR)工程？',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: ' 预渲染：如何借助 Vite 搭建高可用的服务端渲染(SSR)工程？',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 1,
+          read_time: 4085,
+          read_count: 2219,
+          comment_count: 22,
+          ctime: 1645324095,
+          mtime: 1645324095,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7066612265536978981',
+            reading_end: 0,
+            reading_progress: 0,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1658137091,
+            ctime: 1658137089,
+            mtime: 1658137089
+          }
+        },
+        {
+          id: 86369,
+          section_id: '7068105121523531806',
+          title: '模块联邦: 如何实现优雅的跨应用代码共享？',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '模块联邦: 如何实现优雅的跨应用代码共享？',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 2450,
+          read_count: 2139,
+          comment_count: 28,
+          ctime: 1645711673,
+          mtime: 1645711673,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7068105121523531806',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 7,
+            has_update: 1,
+            last_rtime: 1660293640,
+            ctime: 1658136482,
+            mtime: 1660293221
+          }
+        },
+        {
+          id: 86370,
+          section_id: '7068105121615314952',
+          title: '再谈 ESM：高阶特性 & Pure ESM 时代',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '再谈 ESM：高阶特性 & Pure ESM 时代',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 1543,
+          read_count: 1714,
+          comment_count: 7,
+          ctime: 1645711754,
+          mtime: 1645711754,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7068105121615314952',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1658137093,
+            ctime: 1658135862,
+            mtime: 1658137093
+          }
+        },
+        {
+          id: 86303,
+          section_id: '7066612739912761352',
+          title: '性能优化:  如何体系化地对 Vite 项目进行性能优化？',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '性能优化:  如何体系化地对 Vite 项目进行性能优化？',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 1790,
+          read_count: 1981,
+          comment_count: 8,
+          ctime: 1645324159,
+          mtime: 1645324159,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7066612739912761352',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 94,
+            has_update: 1,
+            last_rtime: 1658221145,
+            ctime: 1658135858,
+            mtime: 1658220178
+          }
+        },
+        {
+          id: 86307,
+          section_id: '7066614740574797832',
+          title: '配置解析服务：配置文件在 Vite 内部被转换成什么样子了？',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '配置解析服务：配置文件在 Vite 内部被转换成什么样子了？',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 2223,
+          read_count: 1865,
+          comment_count: 9,
+          ctime: 1645325120,
+          mtime: 1645325120,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7066614740574797832',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1663296964,
+            ctime: 1658140136,
+            mtime: 1663296062
+          }
+        },
+        {
+          id: 86309,
+          section_id: '7066617580068274207',
+          title: '依赖预构建：Esbuild 打包功能如何被 Vite 玩出花来？',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '依赖预构建：Esbuild 打包功能如何被 Vite 玩出花来？',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 1,
+          read_time: 3510,
+          read_count: 3012,
+          comment_count: 15,
+          ctime: 1645325164,
+          mtime: 1645325164,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7066617580068274207',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1663297701,
+            ctime: 1658210387,
+            mtime: 1663296973
+          }
+        },
+        {
+          id: 86310,
+          section_id: '7066617652487127077',
+          title: '插件流水线：从整体到局部，理解 Vite 的核心编译能力',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '插件流水线：从整体到局部，理解 Vite 的核心编译能力',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 4236,
+          read_count: 1780,
+          comment_count: 3,
+          ctime: 1645325174,
+          mtime: 1645325174,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: null
+        },
+        {
+          id: 86311,
+          section_id: '7066617769776644126',
+          title: ' 热更新：基于 ESM 的毫秒级 HMR 的实现揭秘',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: ' 热更新：基于 ESM 的毫秒级 HMR 的实现揭秘',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 3246,
+          read_count: 1751,
+          comment_count: 5,
+          ctime: 1645325199,
+          mtime: 1645325199,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7066617769776644126',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1658214504,
+            ctime: 1658214196,
+            mtime: 1658214196
+          }
+        },
+        {
+          id: 86304,
+          section_id: '7066613178028785700',
+          title: '手写 Vite: 实现 no-bundle 开发服务(上)',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '手写 Vite: 实现 no-bundle 开发服务(上)',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 1,
+          read_time: 5486,
+          read_count: 2731,
+          comment_count: 35,
+          ctime: 1645324441,
+          mtime: 1645324441,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: null
+        },
+        {
+          id: 86305,
+          section_id: '7066613452235603982',
+          title: '手写 Vite: 实现 no-bundle 开发服务(下)',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '手写 Vite: 实现 no-bundle 开发服务(下)',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 5567,
+          read_count: 1448,
+          comment_count: 10,
+          ctime: 1645324459,
+          mtime: 1645324459,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7066613452235603982',
+            reading_end: 0,
+            reading_progress: 0,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1658220176,
+            ctime: 1658220174,
+            mtime: 1658220174
+          }
+        },
+        {
+          id: 86306,
+          section_id: '7066614663533821983',
+          title: '手写 Bundler:  实现 JavaScript AST 解析器——词法分析、语义分析',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '手写 Bundler:  实现 JavaScript AST 解析器——词法分析、语义分析',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 3103,
+          read_count: 1294,
+          comment_count: 7,
+          ctime: 1645324758,
+          mtime: 1645324758,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: null
+        },
+        {
+          id: 86413,
+          section_id: '7070419010021490702',
+          title: '手写 Bundler: 实现代码打包、 Tree Shaking ',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '手写 Bundler: 实现代码打包、 Tree Shaking ',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 6312,
+          read_count: 1436,
+          comment_count: 7,
+          ctime: 1646220146,
+          mtime: 1646220146,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7070419010021490702',
+            reading_end: 0,
+            reading_progress: 16,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1658210387,
+            ctime: 1657001962,
+            mtime: 1658210383
+          }
+        },
+        {
+          id: 87553,
+          section_id: '7120588458145349640',
+          title: '加餐: Vite 3.0 核心更新盘点与分析',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '加餐: Vite 3.0 核心更新盘点与分析',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 1,
+          read_time: 889,
+          read_count: 1047,
+          comment_count: 2,
+          ctime: 1657959737,
+          mtime: 1657959737,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7120588458145349640',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1663296973,
+            ctime: 1658210346,
+            mtime: 1663296969
+          }
+        }
+      ]
+    }
+  },
+  level: 'info',
+  label: 'juejin',
+  timestamp: '2022-09-23 11:30:00.411 AM'
+}
+{
+  message: {
+    err_no: 0,
+    err_msg: 'success',
+    data: {
+      section: {
+        id: 86102,
+        section_id: '7058947037877764137',
+        title: '预构建: 如何玩转秒级依赖预构建的能力？',
+        user_id: '430664257382462',
+        booklet_id: '7050063811973218341',
+        status: 1,
+        content: '',
+        draft_content: '',
+        draft_title: '预构建: 如何玩转秒级依赖预构建的能力？',
+        markdown_content: '',
+        markdown_show: '',
+        is_free: 0,
+        read_time: 1265,
+        read_count: 6001,
+        comment_count: 63,
+        ctime: 1643727625,
+        mtime: 1643727625,
+        is_update: 0,
+        draft_read_time: 1265,
+        vid: '',
+        reading_progress: null
+      }
+    }
+  },
+  level: 'info',
+  label: 'juejin',
+  timestamp: '2022-09-23 11:30:00.650 AM'
+}
+{
+  message: {
+    err_no: 0,
+    err_msg: 'success',
+    data: {
+      section: {
+        id: 86100,
+        section_id: '7058853948060336163',
+        title: '代码规范: 如何利用 Lint 工具链来保证代码风格和质量？',
+        user_id: '430664257382462',
+        booklet_id: '7050063811973218341',
+        status: 1,
+        content: '',
+        draft_content: '',
+        draft_title: '代码规范: 如何利用 Lint 工具链来保证代码风格和质量？',
+        markdown_content: '',
+        markdown_show: '',
+        is_free: 0,
+        read_time: 2201,
+        read_count: 7758,
+        comment_count: 94,
+        ctime: 1643539182,
+        mtime: 1643539182,
+        is_update: 0,
+        draft_read_time: 2201,
+        vid: '',
+        reading_progress: null
+      }
+    }
+  },
+  level: 'info',
+  label: 'juejin',
+  timestamp: '2022-09-23 11:30:00.660 AM'
+}
+{
+  message: {
+    err_no: 0,
+    err_msg: 'success',
+    data: {
+      section: {
+        id: 86098,
+        section_id: '7057872229589057576',
+        title: '样式方案：在 Vite 中接入现代化的 CSS 工程化方案',
+        user_id: '430664257382462',
+        booklet_id: '7050063811973218341',
+        status: 1,
+        content: '',
+        draft_content: '',
+        draft_title: '样式方案：在 Vite 中接入现代化的 CSS 工程化方案',
+        markdown_content: '',
+        markdown_show: '',
+        is_free: 0,
+        read_time: 2084,
+        read_count: 8267,
+        comment_count: 84,
+        ctime: 1643517556,
+        mtime: 1643517556,
+        is_update: 0,
+        draft_read_time: 2084,
+        vid: '',
+        reading_progress: null
+      }
+    }
+  },
+  level: 'info',
+  label: 'juejin',
+  timestamp: '2022-09-23 11:30:00.677 AM'
+}
+{
+  message: {
+    err_no: 0,
+    err_msg: 'success',
+    data: {
+      section: {
+        id: 85932,
+        section_id: '7053634868994899975',
+        title: '快速上手: 如何用 Vite 从零搭建前端项目？',
+        user_id: '430664257382462',
+        booklet_id: '7050063811973218341',
+        status: 1,
+        content: '',
+        draft_content: '',
+        draft_title: '快速上手: 如何用 Vite 从零搭建前端项目？',
+        markdown_content: '',
+        markdown_show: '',
+        is_free: 0,
+        read_time: 1229,
+        read_count: 8665,
+        comment_count: 61,
+        ctime: 1642328835,
+        mtime: 1642328835,
+        is_update: 0,
+        draft_read_time: 1229,
+        vid: '',
+        reading_progress: null
+      }
+    }
+  },
+  level: 'info',
+  label: 'juejin',
+  timestamp: '2022-09-23 11:30:00.704 AM'
+}
+{
+  message: {
+    err_no: 0,
+    err_msg: 'success',
+    data: {
+      section: {
+        id: 85822,
+        section_id: '7050063812044685343',
+        title: '开篇 ：让 Vite 助力你的前端工程化之路',
+        user_id: '430664257382462',
+        booklet_id: '7050063811973218341',
+        status: 1,
+        content: '<p>当下，在项目开发的过程中，前端工程师们越来越离不开构建工具了，可以说<strong>构建工具已经成为了前端工程项目的标配。</strong></p>\n' +
+          '<p>不过，如今的前端构建工具可谓<code>乱花渐欲迷人眼</code>，有远古时代的<code>browserify</code>、<code>grunt</code>，有传统的<code>Webpack</code>、<code>Rollup</code>、<code>Parcel</code>，也有现代的<code>Esbuild</code>、<code>Vite</code> 等等，不仅种类繁多，更新也很快。</p>\n' +
+          '<p>于是，很多朋友会问我，到底哪个构建工具更好用、值得学。事实上，<strong>无论工具层面如何更新，它们解决的核心问题，即前端工程的痛点是不变的</strong>。因此，想要知道哪个工具更好用，就要看它解决前端工程痛点的效果。</p>\n' +
+          '<p>那么，前端工程都有哪些痛点呢？</p>\n' +
+          '<p>首先是前端的<strong>模块化需求</strong>。我们知道，业界的模块标准非常多，包括 ESM、CommonJS、AMD 和 CMD 等等。前端工程一方面需要落实这些模块规范，保证模块正常加载。另一方面需要兼容不同的模块规范，以适应不同的执行环境。</p>\n' +
+          '<p>其次是<strong>兼容浏览器，编译高级语法</strong>。由于浏览器的实现规范所限，只要高级语言/语法（TypeScript、 JSX 等）想要在浏览器中正常运行，就必须被转化为浏览器可以理解的形式。这都需要工具链层面的支持，而且这个需求会一直存在。</p>\n' +
+          '<p>再者是<strong>线上代码的质量</strong>问题。和开发阶段的考虑侧重点不同，生产环境中，我们不仅要考虑代码的<code>安全性</code>、<code>兼容性</code>问题，保证线上代码的正常运行，也需要考虑代码运行时的性能问题。由于浏览器的版本众多，代码兼容性和安全策略各不相同，线上代码的质量问题也将是前端工程中长期存在的一个痛点。</p>\n' +
+          '<p>同时，<code>开发效率</code><strong>也不容忽视。</strong> 我们知道，<strong>项目的冷启动/二次启动时间</strong>、<strong>热更新时间</strong>都可能严重影响开发效率，尤其是当项目越来越庞大的时候。因此，提高项目的启动速度和热更新速度也是前端工程的重要需求。</p>\n' +
+          '<p>那么，前端构建工具是如何解决以上问题的呢？</p>\n' +
+          '<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f54b17dcae4c49adb558b760048c3603~tplv-k3u1fbpfcp-zoom-1.image" alt=""></p>\n' +
+          '<ul>\n' +
+          '<li>\n' +
+          '<p>模块化方面，提供模块加载方案，并兼容不同的模块规范。</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p>语法转译方面，配合 <code>Sass</code>、<code>TSC</code>、<code>Babel</code> 等前端工具链，完成高级语法的转译功能，同时对于静态资源也能进行处理，使之能作为一个模块正常加载。</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p>产物质量方面，在生产环境中，配合 <code>Terser</code>等压缩工具进行代码压缩和混淆，通过 <code>Tree Shaking</code> 删除未使用的代码，提供对于低版本浏览器的语法降级处理等等。</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p>开发效率方面，构建工具本身通过各种方式来进行性能优化，包括<code>使用原生语言 Go/Rust</code>、<code>no-bundle</code>等等思路，提高项目的启动性能和热更新的速度。</p>\n' +
+          '</li>\n' +
+          '</ul>\n' +
+          '<h2>为什么 Vite 是当前最高效的构建工具？</h2>\n' +
+          '<p>现在，让我们回到一开始提出的问题，到底哪个工具更好用？或者说，哪个工具解决前端工程痛点的效果更好？</p>\n' +
+          '<p>The State of JavaScript Survey 最近的调查结果中显示， Vite 在全球开发者中的满意度超过 98%，已经被用到了<code>SvelteKit</code>、<code>Astro</code>这些大型框架中，成为当下最受瞩目的前端构建工具。我也最推荐你使用它。为什么是 Vite 呢？我们可以根据上面说的四个维度来审视它。</p>\n' +
+          '<p>首先是开发效率。传统构建工具普遍的缺点就是太慢了，与之相比，Vite 能将项目的启动性能提升一个量级，并且达到毫秒级的瞬间热更新效果。</p>\n' +
+          '<p>就拿 Webpack 来说，我在工作中发现，一般的项目使用 Webpack 之后，启动花个几分钟都是很常见的事情，热更新也经常需要等待十秒以上。这主要是因为：</p>\n' +
+          '<ul>\n' +
+          '<li>项目冷启动时必须递归打包整个项目的依赖树</li>\n' +
+          '<li>JavaScript 语言本身的性能限制，导致构建性能遇到瓶颈，直接影响开发效率</li>\n' +
+          '</ul>\n' +
+          '<p>这样一来，代码改动后不能立马看到效果，自然开发体验也越来越差。而其中，最占用时间的就是代码打包和文件编译。</p>\n' +
+          '<p>而 Vite 很好地解决了这些问题。一方面，Vite 在开发阶段基于浏览器原生 ESM 的支持实现了<code>no-bundle</code>服务，另一方面借助 Esbuild 超快的编译速度来做第三方库构建和 TS/JSX 语法编译，从而能够有效提高开发效率。</p>\n' +
+          '<p>除了开发效率，在其他三个维度上， Vite 也表现不俗。</p>\n' +
+          '<ul>\n' +
+          '<li>\n' +
+          '<p>模块化方面，Vite 基于浏览器原生 ESM 的支持实现模块加载，并且无论是开发环境还是生产环境，都可以将其他格式的产物(如 CommonJS)转换为 ESM。</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p>语法转译方面，Vite 内置了对 TypeScript、JSX、Sass 等高级语法的支持，也能够加载各种各样的静态资源，如图片、Worker 等等。</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p>产物质量方面，Vite 基于成熟的打包工具 Rollup 实现生产环境打包，同时可以配合<code>Terser</code>、<code>Babel</code>等工具链，可以极大程度保证构建产物的质量。</p>\n' +
+          '</li>\n' +
+          '</ul>\n' +
+          '<p>因此，如果你想要学习一个前端构建工具，Vite 将会是你当下一个最好的选择。它不仅解决了传统构建工具的开发效率问题，而且具备一个优秀构建工具的各项要素，还经历了社区大规模的验证与落地。</p>\n' +
+          '<h2>如何才能学好 Vite ？</h2>\n' +
+          '<p>不过，很多人在学习和应用 Vite 的过程中总会遇到各种各样的问题。</p>\n' +
+          '<p>比如说，很多 Vite 学习资料既不系统，也不深入。绝大多数的文章只能教会我们如何搭建一个简单的脚手架项目，甚至代码都不一定正确。</p>\n' +
+          '<p>即使通过资料学完了 Vite 的相关知识，但因为对 Vite 的生态了解不够，遇到实际问题的时候依然不知道要使用哪些插件或者解决方案。</p>\n' +
+          '<ul>\n' +
+          '<li>第三方库里面含有 CommonJS 代码导致报错了怎么办?</li>\n' +
+          '<li>想在开发过程中进行 Eslint 代码规范检查怎么办？</li>\n' +
+          '<li>生产环境打包项目后，如何产出构建产物分析报告？</li>\n' +
+          '<li>如果要兼容不支持原生 ESM 的浏览器，怎么办？</li>\n' +
+          '</ul>\n' +
+          '<p>而且，如果你对 Vite 底层使用的构建引擎 Esbuild 和 Rollup 不够熟悉，遇到一些需要定制的场景，往往也会捉襟见肘。</p>\n' +
+          '<ul>\n' +
+          '<li>写一个 Esbuild 插件来处理一下问题依赖</li>\n' +
+          '<li>对于 Rollup 打包产物进行自定义拆包，解决实际场景中经常出现的循环依赖问题</li>\n' +
+          '<li>使用 Esbuild 的代码转译和压缩功能会出现哪些兼容性问题？如何解决？</li>\n' +
+          '</ul>\n' +
+          '<p>当然，作为一个构建工具，Vite 的难点不仅在于它本身的灵活性，也包含了诸如<code>Babel</code>、<code>core-js</code> 等诸多前端工具链的集成和应用。</p>\n' +
+          '<ul>\n' +
+          '<li><code>@babel/preset-env</code> 的 <code>useBuiltIns</code> 属性各个取值有哪些区别？</li>\n' +
+          '<li><code>@babel/polyfill</code> 与 <code>@babel/runtime-corejs</code> 有什么区别？</li>\n' +
+          '<li><code>@babel/plugin-transform-runtime</code> 与<code>@babel/preset-env</code> 的 <code>useBuiltIn</code> 相比有什么优化？</li>\n' +
+          '<li>core-js 的作用是什么？其产物有哪些版本？<code>core-js</code> 和 <code>core-js-pure</code> 有什么区别？</li>\n' +
+          '</ul>\n' +
+          '<p>此外，由于构建工具(不仅包括 Vite，也包括底层引擎 Rollup)的源码晦涩难懂，涉及大量的基础工具库，导致很多人对构建工具原理的理解只浮于表面，很难更进一步。</p>\n' +
+          '<p>作为一名深耕在一线的前端工程师，我的日常工作就是跟各种构建工具打交道，在公司中诸多的业务项目中落地了 Vite，有丰富的 Vite 实战经验和源码阅读经验，也给 Vite 仓库贡献过一些代码。因此，我也非常乐意将自己在 Vite 方面的实战经验与学习方法通过小册系统性地分享给大家。</p>\n' +
+          '<p><img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/112094547231465195123dabcc084ff8~tplv-k3u1fbpfcp-watermark.image?" alt="20220323稀土掘金-「小册」《深入浅出 Vite 》视觉延展 - 改1_作者简介.jpg"></p>\n' +
+          '<p>那么， Vite 该如何学习呢？我按照<strong>循序渐进、可实操、可延伸</strong>的三个原则，由浅入深设计课程内容，提供大量的实战场景和案例，同时尽可能给大家提供解决问题的方法和视角，让大家学完课程后能做到举一反三。具体来说，我将课程设计为 5 个模块。</p>\n' +
+          '<p><strong>在基础使用篇中</strong>，我将与你从 0 开始实现 Vite 项目初始化，接入各种现代化的 CSS 方案，集成 Eslint、Styelint、Commonlint 等一系列 Lint 工具链，处理各种形式的静态资源，掌握 Vite 预编译的各种使用技巧，最终让你能独立搭建一个相对完整的脚手架工程。</p>\n' +
+          '<p><strong>在双引擎篇中</strong>，我们会学习 Vite 的双引擎架构， Esbuild 和 Rollup 相关的内容，包括它们的基本使用和插件开发，掌握<code>最小必要知识</code>，为后续的高级应用作铺垫。</p>\n' +
+          '<p><strong>而高级应用篇</strong>， 我们将学习 Vite 的各种高级用法和构建性能优化手段，学会如何编写一个完整的 Vite 插件，熟练进行生产环境拆包，使用 Vite 搭建复杂的 SSR 工程，实现基于模块联邦的跨应用模块共享架构。不管是项目性能优化技巧，还是对前端底层标准和规范的理解，你都会从这一模块得到不少提升。</p>\n' +
+          '<p>接下来，我们将一起剖析 <strong>Vite</strong> <strong>的核心源码</strong>，理解诸如<code>JIT</code>、<code>Proxy Module</code>、<code>Module Graph</code>、<code>HMR Boundary</code>和<code>Plugin Container</code> 等源码中重要概念的作用及底层实现，一步步教你学会阅读 Vite 的源码，将如下架构图中的关键环节各个击破，学透 Vite 实现原理。</p>\n' +
+          '<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/02910cd2c6894bcdb3a9e0fc9e59f4c2~tplv-k3u1fbpfcp-watermark.image?" alt="image.png"></p>\n' +
+          '<p><strong>最后是手写实战篇。</strong> 首先，我们会手写 Vite 的开发时 no-bundle 服务，也就是开发环境下基于浏览器原生 ESM 的 Dev Server。然后，我也会带你一步步完成一个生产环境打包工具（Bundler），从 AST 解析的功能开始，完成代码的词法分析（tokenize）和语义分析（parse），实现模块依赖图和作用域链的搭建，并完成 Tree Shaking、循环依赖检测及 Bundle 代码生成，最终实现一个类似 Rollup 的 Bundler。</p>\n' +
+          '<p><img src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/52599ad0dbb344d59eafb00f360e99c3~tplv-k3u1fbpfcp-watermark.image?" alt="深入浅出 Vite (2).png"></p>\n' +
+          '<p>可以看到，我们在课程中非常重视上手实战。课程的代码全部会上传至 Github 仓库(<a href="https://github.com/sanyuan0704/juejin-book-vite" target="_blank" rel="nofollow noopener noreferrer">仓库地址</a>)，基本上每一节内容都有能 run 起来的代码案例。尤其在最后一章，为了让你理解构建工具的底层原理，我会带你一步步搭建一个简单的构建工具，进行上千行代码的手写实战，做到真正的代码可实操。</p>\n' +
+          '<p>最后，我希望在这本小册中，我们能一起深入 Vite 的实战要点和实现原理 ，领略前端工程化构建领域的底层风光，真正实现 Vite 从入门到进阶！</p>',
+        draft_content: '',
+        draft_title: '开篇 ：让 Vite 助力你的前端工程化之路',
+        markdown_content: '',
+        markdown_show: '当下，在项目开发的过程中，前端工程师们越来越离不开构建工具了，可以说**构建工具已经成为了前端工程项目的标配。**\n' +
+          '\n' +
+          '不过，如今的前端构建工具可谓`乱花渐欲迷人眼`，有远古时代的`browserify`、`grunt`，有传统的`Webpack`、`Rollup`、`Parcel`，也有现代的`Esbuild`、`Vite` 等等，不仅种类繁多，更新也很快。\n' +
+          '\n' +
+          '于是，很多朋友会问我，到底哪个构建工具更好用、值得学。事实上，**无论工具层面如何更新，它们解决的核心问题，即前端工程的痛点是不变的**。因此，想要知道哪个工具更好用，就要看它解决前端工程痛点的效果。\n' +
+          '\n' +
+          '那么，前端工程都有哪些痛点呢？\n' +
+          '\n' +
+          '首先是前端的**模块化需求**。我们知道，业界的模块标准非常多，包括 ESM、CommonJS、AMD 和 CMD 等等。前端工程一方面需要落实这些模块规范，保证模块正常加载。另一方面需要兼容不同的模块规范，以适应不同的执行环境。\n' +
+          '\n' +
+          '其次是**兼容浏览器，编译高级语法**。由于浏览器的实现规范所限，只要高级语言/语法（TypeScript、 JSX 等）想要在浏览器中正常运行，就必须被转化为浏览器可以理解的形式。这都需要工具链层面的支持，而且这个需求会一直存在。\n' +
+          '\n' +
+          '再者是**线上代码的质量**问题。和开发阶段的考虑侧重点不同，生产环境中，我们不仅要考虑代码的`安全性`、`兼容性`问题，保证线上代码的正常运行，也需要考虑代码运行时的性能问题。由于浏览器的版本众多，代码兼容性和安全策略各不相同，线上代码的质量问题也将是前端工程中长期存在的一个痛点。\n' +
+          '\n' +
+          '同时，`开发效率`**也不容忽视。** 我们知道，**项目的冷启动/二次启动时间**、**热更新时间**都可能严重影响开发效率，尤其是当项目越来越庞大的时候。因此，提高项目的启动速度和热更新速度也是前端工程的重要需求。\n' +
+          '\n' +
+          '那么，前端构建工具是如何解决以上问题的呢？\n' +
+          '\n' +
+          '![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f54b17dcae4c49adb558b760048c3603~tplv-k3u1fbpfcp-zoom-1.image)\n' +
+          '\n' +
+          '-   模块化方面，提供模块加载方案，并兼容不同的模块规范。\n' +
+          '\n' +
+          '\n' +
+          '\n' +
+          '-   语法转译方面，配合 `Sass`、`TSC`、`Babel` 等前端工具链，完成高级语法的转译功能，同时对于静态资源也能进行处理，使之能作为一个模块正常加载。\n' +
+          '\n' +
+          '\n' +
+          '\n' +
+          '-   产物质量方面，在生产环境中，配合 `Terser`等压缩工具进行代码压缩和混淆，通过 `Tree Shaking` 删除未使用的代码，提供对于低版本浏览器的语法降级处理等等。\n' +
+          '\n' +
+          '\n' +
+          '\n' +
+          '-   开发效率方面，构建工具本身通过各种方式来进行性能优化，包括`使用原生语言 Go/Rust`、`no-bundle`等等思路，提高项目的启动性能和热更新的速度。\n' +
+          '\n' +
+          '## 为什么 Vite 是当前最高效的构建工具？\n' +
+          '\n' +
+          '现在，让我们回到一开始提出的问题，到底哪个工具更好用？或者说，哪个工具解决前端工程痛点的效果更好？\n' +
+          '\n' +
+          'The State of JavaScript Survey 最近的调查结果中显示， Vite 在全球开发者中的满意度超过 98%，已经被用到了`SvelteKit`、`Astro`这些大型框架中，成为当下最受瞩目的前端构建工具。我也最推荐你使用它。为什么是 Vite 呢？我们可以根据上面说的四个维度来审视它。\n' +
+          '\n' +
+          '首先是开发效率。传统构建工具普遍的缺点就是太慢了，与之相比，Vite 能将项目的启动性能提升一个量级，并且达到毫秒级的瞬间热更新效果。\n' +
+          '\n' +
+          '就拿 Webpack 来说，我在工作中发现，一般的项目使用 Webpack 之后，启动花个几分钟都是很常见的事情，热更新也经常需要等待十秒以上。这主要是因为：\n' +
+          '\n' +
+          '-   项目冷启动时必须递归打包整个项目的依赖树\n' +
+          '-   JavaScript 语言本身的性能限制，导致构建性能遇到瓶颈，直接影响开发效率\n' +
+          '\n' +
+          '这样一来，代码改动后不能立马看到效果，自然开发体验也越来越差。而其中，最占用时间的就是代码打包和文件编译。\n' +
+          '\n' +
+          '而 Vite 很好地解决了这些问题。一方面，Vite 在开发阶段基于浏览器原生 ESM 的支持实现了`no-bundle`服务，另一方面借助 Esbuild 超快的编译速度来做第三方库构建和 TS/JSX 语法编译，从而能够有效提高开发效率。\n' +
+          '\n' +
+          '除了开发效率，在其他三个维度上， Vite 也表现不俗。\n' +
+          '\n' +
+          '-   模块化方面，Vite 基于浏览器原生 ESM 的支持实现模块加载，并且无论是开发环境还是生产环境，都可以将其他格式的产物(如 CommonJS)转换为 ESM。\n' +
+          '\n' +
+          '-   语法转译方面，Vite 内置了对 TypeScript、JSX、Sass 等高级语法的支持，也能够加载各种各样的静态资源，如图片、Worker 等等。\n' +
+          '\n' +
+          '-   产物质量方面，Vite 基于成熟的打包工具 Rollup 实现生产环境打包，同时可以配合`Terser`、`Babel`等工具链，可以极大程度保证构建产物的质量。\n' +
+          '\n' +
+          '因此，如果你想要学习一个前端构建工具，Vite 将会是你当下一个最好的选择。它不仅解决了传统构建工具的开发效率问题，而且具备一个优秀构建工具的各项要素，还经历了社区大规模的验证与落地。\n' +
+          '\n' +
+          '## 如何才能学好 Vite ？\n' +
+          '\n' +
+          '不过，很多人在学习和应用 Vite 的过程中总会遇到各种各样的问题。\n' +
+          '\n' +
+          '比如说，很多 Vite 学习资料既不系统，也不深入。绝大多数的文章只能教会我们如何搭建一个简单的脚手架项目，甚至代码都不一定正确。\n' +
+          '\n' +
+          '即使通过资料学完了 Vite 的相关知识，但因为对 Vite 的生态了解不够，遇到实际问题的时候依然不知道要使用哪些插件或者解决方案。\n' +
+          '\n' +
+          '-   第三方库里面含有 CommonJS 代码导致报错了怎么办?\n' +
+          '-   想在开发过程中进行 Eslint 代码规范检查怎么办？\n' +
+          '-   生产环境打包项目后，如何产出构建产物分析报告？\n' +
+          '-   如果要兼容不支持原生 ESM 的浏览器，怎么办？\n' +
+          '\n' +
+          '而且，如果你对 Vite 底层使用的构建引擎 Esbuild 和 Rollup 不够熟悉，遇到一些需要定制的场景，往往也会捉襟见肘。\n' +
+          '\n' +
+          '-   写一个 Esbuild 插件来处理一下问题依赖\n' +
+          '-   对于 Rollup 打包产物进行自定义拆包，解决实际场景中经常出现的循环依赖问题\n' +
+          '-   使用 Esbuild 的代码转译和压缩功能会出现哪些兼容性问题？如何解决？\n' +
+          '\n' +
+          '当然，作为一个构建工具，Vite 的难点不仅在于它本身的灵活性，也包含了诸如`Babel`、`core-js` 等诸多前端工具链的集成和应用。\n' +
+          '\n' +
+          '-   `@babel/preset-env` 的 `useBuiltIns` 属性各个取值有哪些区别？\n' +
+          '-   `@babel/polyfill` 与 `@babel/runtime-corejs` 有什么区别？\n' +
+          '-   `@babel/plugin-transform-runtime` 与`@babel/preset-env` 的 `useBuiltIn` 相比有什么优化？\n' +
+          '-   core-js 的作用是什么？其产物有哪些版本？`core-js` 和 `core-js-pure` 有什么区别？\n' +
+          '\n' +
+          '此外，由于构建工具(不仅包括 Vite，也包括底层引擎 Rollup)的源码晦涩难懂，涉及大量的基础工具库，导致很多人对构建工具原理的理解只浮于表面，很难更进一步。\n' +
+          '\n' +
+          '作为一名深耕在一线的前端工程师，我的日常工作就是跟各种构建工具打交道，在公司中诸多的业务项目中落地了 Vite，有丰富的 Vite 实战经验和源码阅读经验，也给 Vite 仓库贡献过一些代码。因此，我也非常乐意将自己在 Vite 方面的实战经验与学习方法通过小册系统性地分享给大家。\n' +
+          '\n' +
+          '\n' +
+          '![20220323稀土掘金-「小册」《深入浅出 Vite 》视觉延展 - 改1_作者简介.jpg](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/112094547231465195123dabcc084ff8~tplv-k3u1fbpfcp-watermark.image?)\n' +
+          '\n' +
+          '\n' +
+          '那么， Vite 该如何学习呢？我按照**循序渐进、可实操、可延伸**的三个原则，由浅入深设计课程内容，提供大量的实战场景和案例，同时尽可能给大家提供解决问题的方法和视角，让大家学完课程后能做到举一反三。具体来说，我将课程设计为 5 个模块。\n' +
+          '\n' +
+          '**在基础使用篇中**，我将与你从 0 开始实现 Vite 项目初始化，接入各种现代化的 CSS 方案，集成 Eslint、Styelint、Commonlint 等一系列 Lint 工具链，处理各种形式的静态资源，掌握 Vite 预编译的各种使用技巧，最终让你能独立搭建一个相对完整的脚手架工程。\n' +
+          '\n' +
+          '**在双引擎篇中**，我们会学习 Vite 的双引擎架构， Esbuild 和 Rollup 相关的内容，包括它们的基本使用和插件开发，掌握`最小必要知识`，为后续的高级应用作铺垫。\n' +
+          '\n' +
+          '**而高级应用篇**， 我们将学习 Vite 的各种高级用法和构建性能优化手段，学会如何编写一个完整的 Vite 插件，熟练进行生产环境拆包，使用 Vite 搭建复杂的 SSR 工程，实现基于模块联邦的跨应用模块共享架构。不管是项目性能优化技巧，还是对前端底层标准和规范的理解，你都会从这一模块得到不少提升。\n' +
+          '\n' +
+          '接下来，我们将一起剖析 **Vite** **的核心源码**，理解诸如`JIT`、`Proxy Module`、`Module Graph`、`HMR Boundary`和`Plugin Container` 等源码中重要概念的作用及底层实现，一步步教你学会阅读 Vite 的源码，将如下架构图中的关键环节各个击破，学透 Vite 实现原理。\n' +
+          '\n' +
+          '![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/02910cd2c6894bcdb3a9e0fc9e59f4c2~tplv-k3u1fbpfcp-watermark.image?)\n' +
+          '\n' +
+          '**最后是手写实战篇。** 首先，我们会手写 Vite 的开发时 no-bundle 服务，也就是开发环境下基于浏览器原生 ESM 的 Dev Server。然后，我也会带你一步步完成一个生产环境打包工具（Bundler），从 AST 解析的功能开始，完成代码的词法分析（tokenize）和语义分析（parse），实现模块依赖图和作用域链的搭建，并完成 Tree Shaking、循环依赖检测及 Bundle 代码生成，最终实现一个类似 Rollup 的 Bundler。\n' +
+          '\n' +
+          '\n' +
+          '![深入浅出 Vite (2).png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/52599ad0dbb344d59eafb00f360e99c3~tplv-k3u1fbpfcp-watermark.image?)\n' +
+          '\n' +
+          '可以看到，我们在课程中非常重视上手实战。课程的代码全部会上传至 Github 仓库([仓库地址](https://github.com/sanyuan0704/juejin-book-vite))，基本上每一节内容都有能 run 起来的代码案例。尤其在最后一章，为了让你理解构建工具的底层原理，我会带你一步步搭建一个简单的构建工具，进行上千行代码的手写实战，做到真正的代码可实操。\n' +
+          '\n' +
+          '最后，我希望在这本小册中，我们能一起深入 Vite 的实战要点和实现原理 ，领略前端工程化构建领域的底层风光，真正实现 Vite 从入门到进阶！\n' +
+          '\n' +
+          '\n' +
+          '\n',
+        is_free: 1,
+        read_time: 510,
+        read_count: 13726,
+        comment_count: 54,
+        ctime: 1641716764,
+        mtime: 1641716764,
+        is_update: 0,
+        draft_read_time: 510,
+        vid: '',
+        reading_progress: null
+      }
+    }
+  },
+  level: 'info',
+  label: 'juejin',
+  timestamp: '2022-09-23 11:30:00.709 AM'
+}
+{
+  message: {
+    err_no: 0,
+    err_msg: 'success',
+    data: {
+      section: {
+        id: 86674,
+        section_id: '7077834799208988675',
+        title: '模块标准：为什么 ESM 是前端模块化的未来？',
+        user_id: '430664257382462',
+        booklet_id: '7050063811973218341',
+        status: 1,
+        content: '',
+        draft_content: '',
+        draft_title: '模块标准：为什么 ESM 是前端模块化的未来？',
+        markdown_content: '',
+        markdown_show: '',
+        is_free: 0,
+        read_time: 1988,
+        read_count: 8505,
+        comment_count: 37,
+        ctime: 1648023179,
+        mtime: 1648023179,
+        is_update: 0,
+        draft_read_time: 1988,
+        vid: '',
+        reading_progress: null
+      }
+    }
+  },
+  level: 'info',
+  label: 'juejin',
+  timestamp: '2022-09-23 11:30:00.717 AM'
+}
+{
+  message: {
+    err_no: 0,
+    err_msg: 'success',
+    data: {
+      section: {
+        id: 86101,
+        section_id: '7058854154738860066',
+        title: '静态资源: 如何在 Vite 中处理各种静态资源？',
+        user_id: '430664257382462',
+        booklet_id: '7050063811973218341',
+        status: 1,
+        content: '<p>静态资源处理是前端工程经常遇到的问题，在真实的工程中不仅仅包含了动态执行的代码，也不可避免地要引入各种静态资源，如<code>图片</code>、<code>JSON</code>、<code>Worker 文件</code>、<code>Web Assembly 文件</code>等等。</p>\n' +
+          '<p>而静态资源本身并不是标准意义上的模块，因此对它们的处理和普通的代码是需要区别对待的。一方面我们需要解决<strong>资源加载</strong>的问题，对 Vite 来说就是如何将静态资源解析并加载为一个 ES 模块的问题；另一方面在<strong>生产环境</strong>下我们还需要考虑静态资源的部署问题、体积问题、网络性能问题，并采取相应的方案来进行优化。</p>\n' +
+          '<p>在本小节，我将与你就这两方面的问题展开探讨，结合 Vite 自身的能力及其生态，来解决项目中静态资源处理的各个疑难点，同时也能继续完善目前的 Vite 脚手架工程。</p>\n' +
+          '<h2>图片加载</h2>\n' +
+          '<p>图片是项目中最常用的静态资源之一，本身包括了非常多的格式，诸如 png、jpeg、webp、avif、gif，当然，也包括经常用作图标的 svg 格式。这一部分我们主要讨论的是如何加载图片，也就是说怎么让图片在页面中<strong>正常显示</strong>。</p>\n' +
+          '<h3>1. 使用场景</h3>\n' +
+          '<p>在日常的项目开发过程中，我们一般会遇到三种加载图片的场景:</p>\n' +
+          '<ol>\n' +
+          '<li>在 HTML 或者 JSX 中，通过 img 标签来加载图片，如:</li>\n' +
+          '</ol>\n' +
+          '<pre><code class="hljs language-html"><span class="hljs-tag">&#x3C;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"../../assets/a.png"</span>></span><span class="hljs-tag">&#x3C;/<span class="hljs-name">img</span>></span>\n' +
+          '</code></pre>\n' +
+          '<ol start="2">\n' +
+          '<li>在 CSS 中通过 background 属性加载图片，如:</li>\n' +
+          '</ol>\n' +
+          `<pre><code class="hljs language-css"><span class="hljs-attribute">background</span>: <span class="hljs-built_in">url</span>(<span class="hljs-string">'../../assets/b.png'</span>) norepeat;\n` +
+          '</code></pre>\n' +
+          '<ol start="3">\n' +
+          '<li>在 JavaScript 中，通过脚本的方式动态指定图片的<code>src</code>属性，如:</li>\n' +
+          '</ol>\n' +
+          `<pre><code class="hljs language-ts"><span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'hero-img'</span>).src = <span class="hljs-string">'../../assets/c.png'</span>\n` +
+          '</code></pre>\n' +
+          '<p>当然，大家一般还会有别名路径的需求，比如地址前缀直接换成<code>@assets</code>，这样就不用开发人员手动寻址，降低开发时的心智负担。</p>\n' +
+          '<h3>2. 在 Vite 中使用</h3>\n' +
+          '<p>接下来让我们在目前的脚手架项目来进行实际的编码，你可以在 Vite 的配置文件中配置一下别名，方便后续的图片引入:</p>\n' +
+          '<pre><code class="hljs language-ts"><span class="hljs-comment">// vite.config.ts</span>\n' +
+          `<span class="hljs-keyword">import</span> path <span class="hljs-keyword">from</span> <span class="hljs-string">'path'</span>;\n` +
+          '\n' +
+          '{\n' +
+          '  <span class="hljs-attr">resolve</span>: {\n' +
+          '    <span class="hljs-comment">// 别名配置</span>\n' +
+          '    <span class="hljs-attr">alias</span>: {\n' +
+          `      <span class="hljs-string">'@assets'</span>: path.join(__dirname, <span class="hljs-string">'src/assets'</span>)\n` +
+          '    }\n' +
+          '  }\n' +
+          '}\n' +
+          '</code></pre>\n' +
+          '<p>这样 Vite 在遇到<code>@assets</code>路径的时候，会自动帮我们定位至根目录下的<code>src/assets</code>目录。值得注意的是，alias 别名配置不仅在 JavaScript 的 import 语句中生效，在 CSS 代码的 <code>@import</code> 和 <code>url</code>导入语句中也同样生效。</p>\n' +
+          '<p>现在 <code>src/assets</code> 目录的内容如下:</p>\n' +
+          '<pre><code class="hljs language-bash">.\n' +
+          '├── icons\n' +
+          '│   ├── favicon.svg\n' +
+          '│   ├── logo-1.svg\n' +
+          '│   ├── logo-2.svg\n' +
+          '│   ├── logo-3.svg\n' +
+          '│   ├── logo-4.svg\n' +
+          '│   ├── logo-5.svg\n' +
+          '│   └── logo.svg\n' +
+          '└── imgs\n' +
+          '    ├── background.png\n' +
+          '    └── vite.png\n' +
+          '</code></pre>\n' +
+          '<p>接下来我们在 Header 组件中引入 <code>vite.png</code>这张图片:</p>\n' +
+          '<pre><code class="hljs language-ts"><span class="hljs-comment">// Header/index.tsx</span>\n' +
+          `<span class="hljs-keyword">import</span> React, { useEffect } <span class="hljs-keyword">from</span> <span class="hljs-string">'react'</span>;\n` +
+          `<span class="hljs-keyword">import</span> { devDependencies } <span class="hljs-keyword">from</span> <span class="hljs-string">'../../../package.json'</span>;\n` +
+          `<span class="hljs-keyword">import</span> styles <span class="hljs-keyword">from</span> <span class="hljs-string">'./index.module.scss'</span>;\n` +
+          '<span class="hljs-comment">// 1. 导入图片</span>\n' +
+          `<span class="hljs-keyword">import</span> logoSrc <span class="hljs-keyword">from</span> <span class="hljs-string">'@assets/imgs/vite.png'</span>;\n` +
+          '\n' +
+          '<span class="hljs-comment">// 方式一</span>\n' +
+          '<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">Header</span>(<span class="hljs-params"></span>) </span>{\n' +
+          '  <span class="hljs-keyword">return</span> (\n' +
+          '    <span class="xml"><span class="hljs-tag">&#x3C;<span class="hljs-name">div</span> <span class="hljs-attr">className</span>=<span class="hljs-string">{</span>`<span class="hljs-attr">p-20px</span> <span class="hljs-attr">text-center</span> ${<span class="hljs-attr">styles.header</span>}`}></span>\n' +
+          '      <span class="hljs-comment">&#x3C;!-- 省略前面的组件内容 --></span>\n' +
+          '      <span class="hljs-comment">&#x3C;!-- 使用图片 --></span>\n' +
+          '      <span class="hljs-tag">&#x3C;<span class="hljs-name">img</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-auto mb-4"</span> <span class="hljs-attr">src</span>=<span class="hljs-string">{logoSrc}</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">""</span> /></span>\n' +
+          '    <span class="hljs-tag">&#x3C;/<span class="hljs-name">div</span>></span></span>\n' +
+          '  );\n' +
+          '}\n' +
+          '\n' +
+          '<span class="hljs-comment">// 方式二</span>\n' +
+          '<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">Header</span>(<span class="hljs-params"></span>) </span>{\n' +
+          '  useEffect(<span class="hljs-function">() =></span> {\n' +
+          `    <span class="hljs-keyword">const</span> img = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'logo'</span>) <span class="hljs-keyword">as</span> HTMLImageElement;\n` +
+          '    img.src = logoSrc;\n' +
+          '  }, []);\n' +
+          '  <span class="hljs-keyword">return</span> (\n' +
+          '    <span class="xml"><span class="hljs-tag">&#x3C;<span class="hljs-name">div</span> <span class="hljs-attr">className</span>=<span class="hljs-string">{</span>`<span class="hljs-attr">p-20px</span> <span class="hljs-attr">text-center</span> ${<span class="hljs-attr">styles.header</span>}`}></span>\n' +
+          '      <span class="hljs-comment">&#x3C;!-- 省略前面的组件内容 --></span>\n' +
+          '      <span class="hljs-comment">&#x3C;!-- 使用图片 --></span>\n' +
+          '      <span class="hljs-tag">&#x3C;<span class="hljs-name">img</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"logo"</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"m-auto mb-4"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">""</span> /></span>\n' +
+          '    <span class="hljs-tag">&#x3C;/<span class="hljs-name">div</span>></span></span>\n' +
+          '  );\n' +
+          '}\n' +
+          '</code></pre>\n' +
+          '<p>可以发现图片能够正常显示:</p>\n' +
+          '<p><img src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/66e4e71a894d4cb4ab8b6e5faca557a9~tplv-k3u1fbpfcp-watermark.image?" alt="image.png"></p>\n' +
+          '<p>而图片路径也被解析为了正确的格式(<code>/</code>表示项目根路径):</p>\n' +
+          '<p><img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e338e4912cf04f03a796a16dd6f3268c~tplv-k3u1fbpfcp-watermark.image?" alt="image.png"></p>\n' +
+          '<p>OK，现在让我们进入 Header 组件的样式文件中添加<code>background</code>属性:</p>\n' +
+          '<pre><code class="hljs language-scss"><span class="hljs-selector-class">.header</span> {\n' +
+          '  <span class="hljs-comment">// 前面的样式代码省略</span>\n' +
+          `  <span class="hljs-attribute">background</span>: url(<span class="hljs-string">'@assets/imgs/background.png'</span>) no-repeat;\n` +
+          '}\n' +
+          '</code></pre>\n' +
+          '<p>再次回到浏览器，可以看到生效后的背景如下:</p>\n' +
+          '<p><img src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/dac9bddf83e345fc8369e6ae821d83f2~tplv-k3u1fbpfcp-watermark.image?" alt="image.png"></p>\n' +
+          '<h3>3. SVG 组件方式加载</h3>\n' +
+          '<p>刚才我们成功地在 Vite 中实现了图片的加载，上述这些加载的方式对于 svg 格式来说依然是适用的。不过，我们通常也希望能将 svg 当做一个组件来引入，这样我们可以很方便地修改 svg 的各种属性，而且比 img 标签的引入方式更加优雅。</p>\n' +
+          '<p>SVG 组件加载在不同的前端框架中的实现不太相同，社区中也已经了有了对应的插件支持:</p>\n' +
+          '<ul>\n' +
+          '<li>Vue2 项目中可以使用 <a href="https://github.com/pakholeung37/vite-plugin-vue2-svg" target="_blank" rel="nofollow noopener noreferrer">vite-plugin-vue2-svg</a>插件。</li>\n' +
+          '<li>Vue3 项目中可以引入 <a href="https://github.com/jpkleemans/vite-svg-loader" target="_blank" rel="nofollow noopener noreferrer">vite-svg-loader</a>。</li>\n' +
+          '<li>React 项目使用 <a href="https://github.com/pd4d10/vite-plugin-svgr" target="_blank" rel="nofollow noopener noreferrer">vite-plugin-svgr</a>插件。</li>\n' +
+          '</ul>\n' +
+          '<p>现在让我们在 React 脚手架项目中安装对应的依赖:</p>\n' +
+          '<pre><code class="hljs language-ts">pnpm i vite-plugin-svgr -D\n' +
+          '</code></pre>\n' +
+          '<p>然后需要在 vite 配置文件添加这个插件:</p>\n' +
+          '<pre><code class="hljs language-ts"><span class="hljs-comment">// vite.config.ts</span>\n' +
+          `<span class="hljs-keyword">import</span> svgr <span class="hljs-keyword">from</span> <span class="hljs-string">'vite-plugin-svgr'</span>;\n` +
+          '\n' +
+          '{\n' +
+          '  <span class="hljs-attr">plugins</span>: [\n' +
+          '    <span class="hljs-comment">// 其它插件省略</span>\n' +
+          '    svgr()\n' +
+          '  ]\n' +
+          '}\n' +
+          '</code></pre>\n' +
+          '<p>随后注意要在 <code>tsconfig.json</code> 添加如下配置，否则会有类型错误:</p>\n' +
+          '<pre><code class="hljs language-json">{\n' +
+          '  <span class="hljs-attr">"compilerOptions"</span>: {\n' +
+          '    <span class="hljs-comment">// 省略其它配置</span>\n' +
+          '    <span class="hljs-attr">"types"</span>: [<span class="hljs-string">"vite-plugin-svgr/client"</span>]\n' +
+          '  }\n' +
+          '}\n' +
+          '</code></pre>\n' +
+          '<p>接下来让我们在项目中使用 svg 组件:</p>\n' +
+          `<pre><code class="hljs language-ts"><span class="hljs-keyword">import</span> { ReactComponent <span class="hljs-keyword">as</span> ReactLogo } <span class="hljs-keyword">from</span> <span class="hljs-string">'@assets/icons/logo.svg'</span>;\n` +
+          '\n' +
+          '<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">Header</span>(<span class="hljs-params"></span>) </span>{\n' +
+          '  <span class="hljs-keyword">return</span> (\n' +
+          '    <span class="hljs-comment">// 其他组件内容省略</span>\n' +
+          '     <span class="xml"><span class="hljs-tag">&#x3C;<span class="hljs-name">ReactLogo</span> /></span></span>\n' +
+          '  )\n' +
+          '}\n' +
+          '</code></pre>\n' +
+          '<p>回到浏览器中，你可以看到 svg 已经成功渲染:</p>\n' +
+          '<p><img src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/795c22c495e74aebb7deea37e36e48ea~tplv-k3u1fbpfcp-watermark.image?" alt="image.png"></p>\n' +
+          '<h2>JSON 加载</h2>\n' +
+          '<p>Vite 中已经内置了对于 JSON 文件的解析，底层使用<code>@rollup/pluginutils</code> 的 <code>dataToEsm</code>  方法将 JSON 对象转换为一个包含各种具名导出的 ES 模块，使用姿势如下:</p>\n' +
+          `<pre><code class="hljs language-ts"><span class="hljs-keyword">import</span> { version } <span class="hljs-keyword">from</span> <span class="hljs-string">'../../../package.json'</span>;\n` +
+          '</code></pre>\n' +
+          '<p>不过你也可以在配置文件禁用按名导入的方式:</p>\n' +
+          '<pre><code class="hljs language-ts"><span class="hljs-comment">// vite.config.ts</span>\n' +
+          '\n' +
+          '{\n' +
+          '  <span class="hljs-attr">json</span>: {\n' +
+          '    <span class="hljs-attr">stringify</span>: <span class="hljs-literal">true</span>\n' +
+          '  }\n' +
+          '}\n' +
+          '</code></pre>\n' +
+          '<p>这样会将 JSON 的内容解析为<code>export default JSON.parse("xxx")</code>，这样会失去<code>按名导出</code>的能力，不过在 JSON 数据量比较大的时候，可以优化解析性能。</p>\n' +
+          '<h2'... 20567 more characters,
+        draft_content: '',
+        draft_title: '静态资源: 如何在 Vite 中处理各种静态资源？',
+        markdown_content: '',
+        markdown_show: '静态资源处理是前端工程经常遇到的问题，在真实的工程中不仅仅包含了动态执行的代码，也不可避免地要引入各种静态资源，如`图片`、`JSON`、`Worker 文件`、`Web Assembly 文件`等等。\n' +
+          '\n' +
+          '而静态资源本身并不是标准意义上的模块，因此对它们的处理和普通的代码是需要区别对待的。一方面我们需要解决**资源加载**的问题，对 Vite 来说就是如何将静态资源解析并加载为一个 ES 模块的问题；另一方面在**生产环境**下我们还需要考虑静态资源的部署问题、体积问题、网络性能问题，并采取相应的方案来进行优化。\n' +
+          '\n' +
+          '在本小节，我将与你就这两方面的问题展开探讨，结合 Vite 自身的能力及其生态，来解决项目中静态资源处理的各个疑难点，同时也能继续完善目前的 Vite 脚手架工程。\n' +
+          '\n' +
+          '## 图片加载\n' +
+          '图片是项目中最常用的静态资源之一，本身包括了非常多的格式，诸如 png、jpeg、webp、avif、gif，当然，也包括经常用作图标的 svg 格式。这一部分我们主要讨论的是如何加载图片，也就是说怎么让图片在页面中**正常显示**。\n' +
+          '### 1. 使用场景\n' +
+          '在日常的项目开发过程中，我们一般会遇到三种加载图片的场景:\n' +
+          '1. 在 HTML 或者 JSX 中，通过 img 标签来加载图片，如:\n' +
+          '```html\n' +
+          '<img src="../../assets/a.png"></img>\n' +
+          '```\n' +
+          '\n' +
+          '2. 在 CSS 中通过 background 属性加载图片，如:\n' +
+          '```css\n' +
+          "background: url('../../assets/b.png') norepeat;\n" +
+          '```\n' +
+          '\n' +
+          '3. 在 JavaScript 中，通过脚本的方式动态指定图片的`src`属性，如:\n' +
+          '```ts\n' +
+          "document.getElementById('hero-img').src = '../../assets/c.png'\n" +
+          '```\n' +
+          '当然，大家一般还会有别名路径的需求，比如地址前缀直接换成`@assets`，这样就不用开发人员手动寻址，降低开发时的心智负担。\n' +
+          '\n' +
+          '### 2. 在 Vite 中使用\n' +
+          '接下来让我们在目前的脚手架项目来进行实际的编码，你可以在 Vite 的配置文件中配置一下别名，方便后续的图片引入:\n' +
+          '```ts\n' +
+          '// vite.config.ts\n' +
+          "import path from 'path';\n" +
+          '\n' +
+          '{\n' +
+          '  resolve: {\n' +
+          '    // 别名配置\n' +
+          '    alias: {\n' +
+          "      '@assets': path.join(__dirname, 'src/assets')\n" +
+          '    }\n' +
+          '  }\n' +
+          '}\n' +
+          '```\n' +
+          '这样 Vite 在遇到`@assets`路径的时候，会自动帮我们定位至根目录下的`src/assets`目录。值得注意的是，alias 别名配置不仅在 JavaScript 的 import 语句中生效，在 CSS 代码的 `@import` 和 `url`导入语句中也同样生效。\n' +
+          '\n' +
+          '现在 `src/assets` 目录的内容如下:\n' +
+          '```bash\n' +
+          '.\n' +
+          '├── icons\n' +
+          '│   ├── favicon.svg\n' +
+          '│   ├── logo-1.svg\n' +
+          '│   ├── logo-2.svg\n' +
+          '│   ├── logo-3.svg\n' +
+          '│   ├── logo-4.svg\n' +
+          '│   ├── logo-5.svg\n' +
+          '│   └── logo.svg\n' +
+          '└── imgs\n' +
+          '    ├── background.png\n' +
+          '    └── vite.png\n' +
+          '```\n' +
+          '\n' +
+          '接下来我们在 Header 组件中引入 `vite.png`这张图片:\n' +
+          '```ts\n' +
+          '// Header/index.tsx\n' +
+          "import React, { useEffect } from 'react';\n" +
+          "import { devDependencies } from '../../../package.json';\n" +
+          "import styles from './index.module.scss';\n" +
+          '// 1. 导入图片\n' +
+          "import logoSrc from '@assets/imgs/vite.png';\n" +
+          '\n' +
+          '// 方式一\n' +
+          'export function Header() {\n' +
+          '  return (\n' +
+          '    <div className={`p-20px text-center ${styles.header}`}>\n' +
+          '      <!-- 省略前面的组件内容 -->\n' +
+          '      <!-- 使用图片 -->\n' +
+          '      <img className="m-auto mb-4" src={logoSrc} alt="" />\n' +
+          '    </div>\n' +
+          '  );\n' +
+          '}\n' +
+          '\n' +
+          '// 方式二\n' +
+          'export function Header() {\n' +
+          '  useEffect(() => {\n' +
+          "    const img = document.getElementById('logo') as HTMLImageElement;\n" +
+          '    img.src = logoSrc;\n' +
+          '  }, []);\n' +
+          '  return (\n' +
+          '    <div className={`p-20px text-center ${styles.header}`}>\n' +
+          '      <!-- 省略前面的组件内容 -->\n' +
+          '      <!-- 使用图片 -->\n' +
+          '      <img id="logo" className="m-auto mb-4" alt="" />\n' +
+          '    </div>\n' +
+          '  );\n' +
+          '}\n' +
+          '```\n' +
+          '\n' +
+          '可以发现图片能够正常显示:\n' +
+          '\n' +
+          '![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/66e4e71a894d4cb4ab8b6e5faca557a9~tplv-k3u1fbpfcp-watermark.image?)\n' +
+          '\n' +
+          '而图片路径也被解析为了正确的格式(`/`表示项目根路径):\n' +
+          '\n' +
+          '![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e338e4912cf04f03a796a16dd6f3268c~tplv-k3u1fbpfcp-watermark.image?)\n' +
+          '\n' +
+          'OK，现在让我们进入 Header 组件的样式文件中添加`background`属性:\n' +
+          '```scss\n' +
+          '.header {\n' +
+          '  // 前面的样式代码省略\n' +
+          "  background: url('@assets/imgs/background.png') no-repeat;\n" +
+          '}\n' +
+          '```\n' +
+          '再次回到浏览器，可以看到生效后的背景如下:\n' +
+          '\n' +
+          '![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/dac9bddf83e345fc8369e6ae821d83f2~tplv-k3u1fbpfcp-watermark.image?)\n' +
+          '\n' +
+          '### 3. SVG 组件方式加载\n' +
+          '刚才我们成功地在 Vite 中实现了图片的加载，上述这些加载的方式对于 svg 格式来说依然是适用的。不过，我们通常也希望能将 svg 当做一个组件来引入，这样我们可以很方便地修改 svg 的各种属性，而且比 img 标签的引入方式更加优雅。\n' +
+          '\n' +
+          'SVG 组件加载在不同的前端框架中的实现不太相同，社区中也已经了有了对应的插件支持:\n' +
+          '\n' +
+          '- Vue2 项目中可以使用 [vite-plugin-vue2-svg](https://github.com/pakholeung37/vite-plugin-vue2-svg)插件。\n' +
+          '- Vue3 项目中可以引入 [vite-svg-loader](https://github.com/jpkleemans/vite-svg-loader)。\n' +
+          '- React 项目使用 [vite-plugin-svgr](https://github.com/pd4d10/vite-plugin-svgr)插件。\n' +
+          '\n' +
+          '现在让我们在 React 脚手架项目中安装对应的依赖:\n' +
+          '```ts\n' +
+          'pnpm i vite-plugin-svgr -D\n' +
+          '```\n' +
+          '然后需要在 vite 配置文件添加这个插件:\n' +
+          '```ts\n' +
+          '// vite.config.ts\n' +
+          "import svgr from 'vite-plugin-svgr';\n" +
+          '\n' +
+          '{\n' +
+          '  plugins: [\n' +
+          '    // 其它插件省略\n' +
+          '    svgr()\n' +
+          '  ]\n' +
+          '}\n' +
+          '```\n' +
+          '随后注意要在 `tsconfig.json` 添加如下配置，否则会有类型错误:\n' +
+          '```json\n' +
+          '{\n' +
+          '  "compilerOptions": {\n' +
+          '    // 省略其它配置\n' +
+          '    "types": ["vite-plugin-svgr/client"]\n' +
+          '  }\n' +
+          '}\n' +
+          '```\n' +
+          '接下来让我们在项目中使用 svg 组件:\n' +
+          '```ts\n' +
+          "import { ReactComponent as ReactLogo } from '@assets/icons/logo.svg';\n" +
+          '\n' +
+          'export function Header() {\n' +
+          '  return (\n' +
+          '    // 其他组件内容省略\n' +
+          '     <ReactLogo />\n' +
+          '  )\n' +
+          '}\n' +
+          '```\n' +
+          '回到浏览器中，你可以看到 svg 已经成功渲染:\n' +
+          '\n' +
+          '![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/795c22c495e74aebb7deea37e36e48ea~tplv-k3u1fbpfcp-watermark.image?)\n' +
+          '\n' +
+          '## JSON 加载\n' +
+          '\n' +
+          'Vite 中已经内置了对于 JSON 文件的解析，底层使用`@rollup/pluginutils` 的 `dataToEsm`  方法将 JSON 对象转换为一个包含各种具名导出的 ES 模块，使用姿势如下:\n' +
+          '```ts\n' +
+          "import { version } from '../../../package.json';\n" +
+          '```\n' +
+          '\n' +
+          '不过你也可以在配置文件禁用按名导入的方式:\n' +
+          '```ts\n' +
+          '// vite.config.ts\n' +
+          '\n' +
+          '{\n' +
+          '  json: {\n' +
+          '    stringify: true\n' +
+          '  }\n' +
+          '}\n' +
+          '```\n' +
+          '这样会将 JSON 的内容解析为`export default JSON.parse("xxx")`，这样会失去`按名导出`的能力，不过在 JSON 数据量比较大的时候，可以优化解析性能。\n' +
+          '\n' +
+          '## Web Worker 脚本\n' +
+          'Vite 中使用 Web Worker 也非常简单，我们可以在新建`Header/example.js`文件:\n' +
+          '```js\n' +
+          'const start = () => {\n' +
+          '  let count = 0;\n' +
+          '  setInterval(() => {\n' +
+          '    // 给主线程传值\n' +
+          '    postMessage(++count);\n' +
+          '  }, 2000);\n' +
+          '};\n' +
+          '\n' +
+          'start();\n' +
+          '```\n' +
+          '\n' +
+          '然后在 Header 组件中引入，引入的时候注意加上`?worker`后缀，相当于告诉 Vite 这是一个 Web Worker 脚本文件:\n' +
+          '\n' +
+          '```ts\n' +
+          "import Worker from './example.js?worker';\n" +
+          '// 1. 初始化 Worker 实例\n' +
+          'const worker = new Worker();\n' +
+          '// 2. 主线程监听 worker 的信息\n' +
+          "worker.addEventListener('message', (e) => {\n" +
+          '  console.log(e);\n' +
+          '});\n' +
+          '```\n' +
+          '打开浏览器的控制面板，你可以看到 Worker 传给主线程的信息已经成功打印:\n' +
+          '\n' +
+          '![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5fe5b95939c74d8cba5a43826eab31c9~tplv-k3u1fbpfcp-watermark.image?)\n' +
+          '\n' +
+          '说明 Web Worker 脚本已经成功执行，也能与主线程正常通信。\n' +
+          '\n' +
+          '### Web Assembly 文件\n' +
+          'Vite 对于 `.wasm` 文件也提供了开箱即用的支持，我们拿一个斐波拉契的 `.wasm` 文件(原文件已经放到[Github 仓库](https://github.com/sanyuan0704/juejin-book-vite/tree/main/4~7-vite-project-framework/src/components/Header)中)来进行一下实际操作，对应的 JavaScript 原文件如下:\n' +
+          '\n' +
+          '```ts\n' +
+          'export function fib(n) {\n' +
+          '  var a = 0,\n' +
+          '    b = 1;\n' +
+          '  if (n > 0) {\n' +
+          '    while (--n) {\n' +
+          '      let t = a + b;\n' +
+          '      a = b;\n' +
+          '      b = t;\n' +
+          '    }\n' +
+          '    return b;\n' +
+          '  }\n' +
+          '  return a;\n' +
+          '}\n' +
+          '```\n' +
+          '让我们在组件中导入`fib.wasm`文件:\n' +
+          '```ts\n' +
+          '// Header/index.tsx\n' +
+          "import init from './fib.wasm';\n" +
+          '\n' +
+          'type FibFunc = (num: number) => number;\n' +
+          '\n' +
+          'init({}).then((exports) => {\n' +
+          '  const fibFunc = exports.fib as FibFunc;\n' +
+          "  console.log('Fib result:', fibFunc(10));\n" +
+          '});\n' +
+          '```\n' +
+          'Vite 会对`.wasm`文件的内容进行封装，默认导出为 init 函数，这个函数返回一个 Promise，因此我们可以在其 then 方法中拿到其导出的成员——`fib`方法。\n' +
+          '\n' +
+          '回到浏览器，我们可以查看到计算结果，说明 .wasm 文件已经被成功执行:\n' +
+          '\n' +
+          '![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7478ef95b7a847fca740218262b411cd~tplv-k3u1fbpfcp-watermark.image?)\n' +
+          '\n' +
+          '### 其它静态资源\n' +
+          '\n' +
+          '除了上述的一些资源格式，Vite 也对下面几类格式提供了内置的支持:\n' +
+          '\n' +
+          '- 媒体类文件，包括`mp4`、`webm`、`ogg`、`mp3`、`wav`、`flac`和`aac`。\n' +
+          '- 字体类文件。包括`woff`、`woff2`、`eot`、`ttf` 和 `otf`。\n' +
+          '- 文本类。包括`webmanifest`、`pdf`和`txt`。\n' +
+          '\n' +
+          '也就是说，你可以在 Vite 将这些类型的文件当做一个 ES 模块来导入使用。如果你的项目中还存在其它格式的静态资源，你可以通过`assetsInclude`配置让 Vite 来支持加载:\n' +
+          '```ts\n' +
+          '// vite.config.ts\n' +
+          '\n' +
+          '{\n' +
+          "  assetsInclude: ['.gltf']\n" +
+          '}\n' +
+          '```\n' +
+          '\n' +
+          '### 特殊资源后缀\n' +
+          'Vite 中引入静态资源时，也支持在路径最后加上一些特殊的 query 后缀，包括:\n' +
+          '- `?url`: 表示获取资源的路径，这在只想获取文件路径而不是内容的场景将会很有用。\n' +
+          '- `?raw`: 表示获取资源的字符串内容，如果你只想拿到资源的原始内容，可以使用这个后缀。\n' +
+          '- `?inline`: 表示资源强制内联，而不是打包成单独的文件。\n' +
+          '\n' +
+          '\n' +
+          '\n' +
+          '## 生产环境处理\n' +
+          '在前面的内容中，我们围绕着如何加载静态资源这个问题，在 Vite 中进行具体的编码实践，相信对于 Vite 中各种静态资源的使用你已经比较熟悉了。但另一方面，在生产环境下，我们又面临着一些新的问题。\n' +
+          '\n' +
+          '- 部署域名怎么配置？\n' +
+          '- 资源打包成单文件还是作为 Base64 格式内联?\n' +
+          '- 图片太大了怎么压缩？\n' +
+          '- svg 请求数量太多了怎么优化？\n' +
+          '\n' +
+          '### 1. 自定义部署域名\n' +
+          '\n' +
+          '一般在我们访问线上的站点时，站点里面一些静态资源的地址都包含了相应域名的前缀，如:\n' +
+          '```html\n' +
+          '<img src="https://sanyuan.cos.ap-beijing.myqcloud.com/logo.png" />\n' +
+          '```\n' +
+          '以上面这个地址例子，`https://sanyuan.cos.ap-beijing.myqcloud.com`是 CDN 地址前缀，`/logo.png`则是我们开发阶段使用的路径。那么，我们是不是需要在上线前把图片先上传到 CDN，然后将代码中的地址手动替换成线上地址呢？这样就太麻烦了！\n' +
+          '\n' +
+          '在 Vite 中我们可以有更加自动化的方式来实现地址的替换，只需要在配置文件中指定`base`参数即可:\n' +
+          '```ts\n' +
+          '// vite.config.ts\n' +
+          '// 是否为生产环境，在生产环境一般会注入 NODE_ENV 这个环境变量，见下面的环境变量文件配置\n' +
+          "const isProduction = process.env.NODE_ENV === 'production';\n" +
+          '// 填入项目的 CDN 域名地址\n' +
+          "const CDN_URL = 'xxxxxx';\n" +
+          '\n' +
+          '// 具体配置\n' +
+          '{\n' +
+          "  base: isProduction ? CDN_URL: '/'\n" +
+          '}\n' +
+          '\n' +
+          '// .env.development\n' +
+          'NODE_ENV=development\n' +
+          '\n' +
+          '// .env.production\n' +
+          'NODE_ENV=production\n' +
+          '```\n' +
+          '注意在项目根目录新增的两个环境变量文件`.env.development`和`.env.production`，顾名思义，即分别在开发环境和生产环境注入一些环境变量，这里为了区分不同环境我们加上了`NODE_ENV`，你也可以根据需要添加别的环境变量。\n' +
+          '> 打包的时候 Vite 会自动将这些环境变量替换为相应的字符串。\n' +
+          '\n' +
+          '接着执行`pnpm run build`，可以发现产物中的静态资源地址已经自动加上了 CDN 地址前缀:\n' +
+          '\n' +
+          '![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2d910210d0b5484d8ebc4407b732b140~tplv-k3u1fbpfcp-watermark.image?)\n' +
+          '\n' +
+          '当然，HTML 中的一些 JS、CSS 资源链接也一起加上了 CDN 地址前缀:\n' +
+          '\n' +
+          '![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/15adeface82d4320b330b440c049f3ab~tplv-k3u1fbpfcp-watermark.image?)\n' +
+          '\n' +
+          '当然，有时候可能项目中的某些图片需要存放到另外的存储服务，一种直接的方案是将完整地址写死到 src 属性中，如:\n' +
+          '```ts\n' +
+          '<img src="https://my-image-cdn.com/logo.png">\n' +
+          '```\n' +
+          '这样做显然是不太优雅的，我们可以通过定义环境变量的方式来解决这个问题，在项目根目录新增`.env`文件:\n' +
+          '```ts\n' +
+          '// 开发环境优先级: .env.development > .env\n' +
+          '// 生产环境优先级: .env.production > .env\n' +
+          '// .env 文件\n' +
+          'VITE_IMG_BASE_URL=https://my-image-cdn.com\n' +
+          '```\n' +
+          '然后进入 `src/vite-env.d.ts`增加类型声明:\n' +
+          '```ts\n' +
+          '/// <reference types="vite/client" />\n' +
+          '\n' +
+          'interface ImportMetaEnv {\n' +
+          '  readonly VITE_APP_TITLE: string;\n' +
+          '  // 自定义的环境变量\n' +
+          '  readonly VITE_IMG_BASE_URL: string;\n' +
+          '}\n' +
+          '\n' +
+          'interface ImportMeta {\n' +
+          '  readonly env: ImportMetaEnv;\n' +
+          '}\n' +
+          '```\n' +
+          '值得注意的是，如果某个环境变量要在 Vite 中通过 `import.meta.env` 访问，那么它必须以`VITE_`开头，如`VITE_IMG_BASE_URL`。接下来我们在组件中来使用这个环境变量:\n' +
+          '```html\n' +
+          "<img src={new URL('./logo.png', import.meta.env.VITE_IMG_BASE_URL).href} />\n" +
+          '```\n' +
+          '接下来在`开发环境`启动项目或者`生产环境`打包后可以看到环境变量已经被替换，地址能够正常显示:\n' +
+          '\n' +
+          '\n' +
+          '![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/40484ed4df404b87b40b104cf2b9fdee~tplv-k3u1fbpfcp-watermark.image?)\n' +
+          '\n' +
+          '\n' +
+          '![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b6c4637475bb49818c9c5dd09001bb66~tplv-k3u1fbpfcp-watermark.image?)\n' +
+          '\n' +
+          '至此，我们就彻底解决了图片资源生产环境域名替换的问题。\n' +
+          '\n' +
+          '### 2. 单文件 or 内联？\n' +
+          '\n' +
+          '在 Vite 中，所有的静态资源都有两种构建方式，一种是打包成一个单文件，另一种是通过 base64 编码的格式内嵌到代码中。\n' +
+          '\n' +
+          '这两种方案到底应该如何来选择呢？\n' +
+          '\n' +
+          '对于比较小的资源，适合内联到代码中，一方面对`代码体积`的影响很小，另一方面可以减少不必要的网络请求，`优化网络性能`。而对于比较大的资源，就推荐单独打包成一个文件，而不是内联了，否则可能导致上 MB 的 base64 字符串内嵌到代码中，导致代码体积瞬间庞大，页面加载性能直线下降。\n' +
+          '\n' +
+          '![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0fb28454267d473aa02e8e0e486f2e9e~tplv-k3u1fbpfcp-watermark.image?)\n' +
+          '\n' +
+          'Vite 中内置的优化方案是下面这样的:\n' +
+          '\n' +
+          '- 如果静态资源体积 >= 4KB，则提取成单独的文件\n' +
+          '- 如果静态资源体积 < 4KB，则作为 base64 格式的字符串内联\n' +
+          '\n' +
+          '上述的`4 KB`即为提取成单文件的临界值，当然，这个临界值你可以通过`build.assetsInlineLimit`自行配置，如下代码所示:\n' +
+          '```ts\n' +
+          '// vite.config.ts\n' +
+          '{\n' +
+          '  build: {\n' +
+          '    // 8 KB\n' +
+          '    assetsInlineLimit: 8 * 1024\n' +
+          '  }\n' +
+          '}\n' +
+          '```\n' +
+          '\n' +
+          '> svg 格式的文件不受这个临时值的影响，始终会打包成单独的文件，因为它和普通格式的图片不一样，需要动态设置一些属性\n' +
+          '\n' +
+          '### 3. 图片压缩\n' +
+          '图片资源的体积往往是项目产物体积的大头，如果能尽可能精简图片的体积，那么对项目整体打包产物体积的优化将会是非常明显的。在 JavaScript 领域有一个非常知名的图片压缩库[imagemin](https://www.npmjs.com/package/imagemin)，作为一个底层的压缩工具，前端的项目中经常基于它来进行图片压缩，比如 Webpack 中大名鼎鼎的`image-webpack-loader`。社区当中也已经有了开箱即用的 Vite 插件——`vite-plugin-imagemin`，首先让我们来安装它:\n' +
+          '```ts\n' +
+          'pnpm i vite-plugin-imagemin -D\n' +
+          '```\n' +
+          '随后在 Vite 配置文件中引入:'... 4476 more characters,
+        is_free: 1,
+        read_time: 2547,
+        read_count: 8740,
+        comment_count: 60,
+        ctime: 1643634078,
+        mtime: 1643634078,
+        is_update: 0,
+        draft_read_time: 2547,
+        vid: '',
+        reading_progress: null
+      }
+    }
+  },
+  level: 'info',
+  label: 'juejin',
+  timestamp: '2022-09-23 11:30:00.718 AM'
+}
+{
+  message: {
+    err_no: 0,
+    err_msg: 'success',
+    data: {
+      booklet: {
+        booklet_id: '7050063811973218341',
+        base_info: {
+          id: 0,
+          booklet_id: '7050063811973218341',
+          title: '深入浅出 Vite',
+          price: 4990,
+          category_id: '6809637767543259144',
+          status: 1,
+          user_id: '430664257382462',
+          verify_status: 4,
+          summary: '系统化学习现代构建工具 Vite，提升前端工程化能力',
+          cover_img: 'https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8cb255da618249d0857e6ecfc5017340~tplv-k3u1fbpfcp-watermark.image?',
+          section_count: 28,
+          section_ids: '7050063811994189855|7050063812044685343|7077834799208988675|7053634868994899975|7057872229589057576|7058853948060336163|7058854154738860066|7058947037877764137|7060398408430780431|7060405118163746850|7061788120680759331|7061854307863232547|7065976180125466638|7065976180020609032|7066601785166659620|7066611951547187214|7066612265536978981|7068105121523531806|7068105121615314952|7066612739912761352|7066614740574797832|7066617580068274207|7066617652487127077|7066617769776644126|7066613178028785700|7066613452235603982|7066614663533821983|7070419010021490702|7120588458145349640',
+          is_finished: 1,
+          ctime: 1642386948,
+          mtime: 1663056711,
+          put_on_time: 1649235586,
+          pull_off_time: -62135596800,
+          finished_time: -62135596800,
+          recycle_bin_time: -62135596800,
+          verify_time: -62135596800,
+          submit_time: 1663056711,
+          top_time: 1649235611,
+          wechat_group_img: 'https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/876f8a0a3e914e9fb741641d63f8f928~tplv-k3u1fbpfcp-watermark.image?',
+          wechat_group_desc: '',
+          wechat_group_signal: 'Vite406',
+          read_time: 72858,
+          buy_count: 3052,
+          course_type: 1,
+          background_img: 'https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4f0be63544f24e5da59ced8854807b3d~tplv-k3u1fbpfcp-watermark.image?',
+          is_distribution: 1,
+          distribution_img: 'https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1eaed56ad91747119f006f425e408ee2~tplv-k3u1fbpfcp-zoom-1.image?',
+          commission: 998,
+          can_vip_borrow: false
+        },
+        user_info: {
+          user_id: '430664257382462',
+          user_name: '神三元',
+          company: '字节跳动',
+          job_title: '公众号 「三元同学」',
+          avatar_large: 'https://p9-passport.byteacctimg.com/img/user-avatar/d43ef01b284d645d6d7ab02c8dc32aaa~300x300.image',
+          level: 7,
+          description: '掘金小册《深入浅出 Vite》、《React Hooks 与 Immutable 数据流实战》作者，目前就职于字节跳动前端架构团队',
+          followee_count: 77,
+          follower_count: 33887,
+          post_article_count: 50,
+          digg_article_count: 451,
+          got_digg_count: 32402,
+          got_view_count: 1626553,
+          post_shortmsg_count: 36,
+          digg_shortmsg_count: 30,
+          isfollowed: false,
+          favorable_author: 1,
+          power: 97738,
+          study_point: 0,
+          university: { university_id: '0', name: '', logo: '' },
+          major: { major_id: '0', parent_id: '0', name: '' },
+          student_status: 0,
+          select_event_count: 0,
+          select_online_course_count: 0,
+          identity: 0,
+          is_select_annual: true,
+          select_annual_rank: 0,
+          annual_list_type: 0,
+          extraMap: {},
+          is_logout: 0,
+          annual_info: [],
+          account_amount: 0,
+          user_growth_info: {
+            user_id: 430664257382462,
+            jpower: 97738,
+            jscore: 1620.8,
+            jpower_level: 7,
+            jscore_level: 5,
+            jscore_title: '先锋掘友',
+            author_achievement_list: [ 1 ],
+            vip_level: 0,
+            vip_title: '',
+            jscore_next_level_score: 4656510908468560000
+          },
+          is_vip: false
+        },
+        is_buy: true,
+        reading_progress: {
+          id: 0,
+          booklet_id: '7050063811973218341',
+          user_id: '3289337926283534',
+          status: 1,
+          buy_type: 1,
+          reading_end: 0,
+          reading_progress: 79,
+          last_section_id: '7058947037877764137',
+          has_update: 1,
+          last_rtime: 1663903851,
+          ctime: 1656157385,
+          mtime: 1663903800,
+          valid_begin_time: 0,
+          valid_end_time: 0,
+          borrow_times: 0
+        },
+        section_updated_count: 28,
+        is_new: false
+      },
+      introduction: {
+        id: 85821,
+        section_id: '7050063811994189855',
+        title: '小册介绍',
+        user_id: '430664257382462',
+        booklet_id: '7050063811973218341',
+        status: 1,
+        content: '<h2>你将获得</h2>\n' +
+          '<ul>\n' +
+          '<li>\n' +
+          '<p>5 大模块，详细梳理构建工具实战要点</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p>深入底层，彻底搞懂 Vite 原理与实现</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p>真实场景，攻克工程实践中的核心问题</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p>从 0 到 1，手把手教你实现构建引擎</p>\n' +
+          '</li>\n' +
+          '</ul>\n' +
+          '<h2>作者介绍</h2>\n' +
+          '<p><img src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8bb5087ddc334879a84ba032696ad185~tplv-k3u1fbpfcp-watermark.image?" alt="20220323稀土掘金-「小册」《深入浅出 Vite 》视觉延展 - 改1_作者简介.jpg"></p>\n' +
+          '<p>目前深耕前端工程化构建领域，拥有大量的 Vite 工程化实战和性能优化经验，曾将 Vite 落地到抖音直播 PC 端等公司大型业务中，也是 Vite Contributor。</p>\n' +
+          '<h2>小册介绍</h2>\n' +
+          '<p><img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cde068a9356b4b53b53bf8a7199888ea~tplv-k3u1fbpfcp-watermark.image?" alt="课程介绍(1624x623).png"></p>\n' +
+          '<p>随着前端技术的发展，构建工具所做的事情早已不仅仅是<code>打包代码</code> 那么简单，如今它已经贯穿了前端项目的整个生命周期，在前端工程化中占据了越来越核心的位置。而由于前端项目规模的日益庞大，传统的构建工具已经无法满足开发者们对 DX(Developer Experience，即开发者体验) 的要求。在使用传统工具的过程中，我们经常会遇到这样的问题:</p>\n' +
+          '<ul>\n' +
+          '<li>\n' +
+          '<p><strong>漫长的项目启动时间</strong>。作为开发者，经常要等待几分钟的时间才能看到项目启动完成。</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p><strong>漫长的热更新时间</strong>。热更新要花费数秒的时间，代码改动后反馈非常迟钝，而且随着项目规模越来越大，热更新也越来越慢。</p>\n' +
+          '</li>\n' +
+          '</ul>\n' +
+          '<p>为了解决上述的问题，Vite 在一系列方案中脱颖而出。相比于传统的构建工具，Vite 项目启动时间能缩短 90% 以上，热更新能得到毫秒级的响应，给构建性能带来了一个量级的提升，极大地解决了大家的开发体验痛点。而回看社区，最近的 JavaScript 生态的年度调查结果也显示，Vite 的开发满意度超过 98%，成为整个前端社区中最受瞩目的技术。</p>\n' +
+          '<p>因此，如果你现在要学习构建工具，Vite 将会是一个更好的选择。但很多人在学习和应用 Vite 的过程中总会遇到下面的问题:</p>\n' +
+          '<ul>\n' +
+          '<li>\n' +
+          '<p>缺少系统化的学习资料，社区中绝大多数的文章仅仅只是教会你如何搭建一个简单的脚手架项目，不够系统和深入</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p>不了解 Vite 相关的生态，遇到问题的时候不知道使用哪些插件或者解决方案</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p>不熟悉 Esbuild、Rollup 这些底层构建引擎，遇到一些稍微需要定制的场景就感到捉襟见肘</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p>不知道如何将 Vite 和其它前端工具结合，如 <code>Babel</code>、<code>core-js</code></p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p>构建工具源码晦涩难懂，对更深一步的原理学习望而却步</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p>......</p>\n' +
+          '</li>\n' +
+          '</ul>\n' +
+          '<p>在本课程中，我会给大家系统梳理 Vite 知识，并解决如上种种问题，带大家了解到前端工程的构建中究竟具备哪些知识和技能，不光是 Vite 本身的知识，也包括 Vite 底层所使用的 Esbuild、Rollup 双引擎、Babel 编译工具链、模块规范标准等一系列构建生态，从此掌握前端构建领域的第一性原理，完成从构建小白到高手的蜕变。</p>\n' +
+          '<p>在本课程中，我分了五个部分来系统讲述:</p>\n' +
+          '<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/94af3f775bd64fbaaaf71d7555f2311d~tplv-k3u1fbpfcp-watermark.image?" alt="深入浅出 Vite (2).png"></p>\n' +
+          '<ol>\n' +
+          '<li>\n' +
+          '<p><strong>基础使用篇。</strong> 重新认识构建工具本身的价值，学会 Vite 基本的功能使用，让你能够独立搭建一个相对完整的脚手架项目。</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p><strong>双引擎篇。</strong> 这个部分我会给你详细介绍 Vite 的双引擎架构，并带你系统学习 Esbuild 和 Rollup 相关的内容，掌握<code>最小必要知识</code>，为后续的高级应用作铺垫。</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p><strong>高级应用篇。</strong> 你将学习到 Vite 的各种高级用法和构建性能优化手段，全程高能实战，每一节都有具体可运行的示例项目。</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p><strong>源码精读篇。</strong> 在这个部分我们将剖析 Vite 的核心源码，理解诸如<code>JIT</code>、<code>Proxy Module</code>、<code>Module Graph</code>、<code>HMR Boundary</code>、<code>Plugin Container</code> 等源码中重要概念的作用及其底层实现。</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p><strong>手写实战篇。</strong> 一方面我们会手写 Vite 的开发时 no-bundle 服务，另一方面也会带你一步步完成一个生产环境打包工具(Bundler)，从 AST 解析的功能开始，最终实现一个 Bundler。</p>\n' +
+          '</li>\n' +
+          '</ol>\n' +
+          '<p>小册最大的特点就是基于实战，理论固然重要，但更重要的是上手实操，几乎所有的知识点你都能找到对应的示例实现代码，在课程的最后一章甚至会手把手教你写一个构建引擎。正如这句话所说:</p>\n' +
+          '<blockquote>\n' +
+          '<p>Talk is cheap， show me your code.</p>\n' +
+          '</blockquote>\n' +
+          '<p>希望这本小册能够降低你学习构建工具的门槛，带你真正完成从入门到进阶的过程。虽然本小册并不能解决所有的问题，但我在小册中分享的个人学习经验，以及面对问题时的思维方式或许给你带来一些启发。</p>\n' +
+          '<p>祝学习愉快，我们小册中见！</p>\n' +
+          '<h2>你会学到什么？</h2>\n' +
+          '<ul>\n' +
+          '<li>\n' +
+          '<p>熟练掌握 Vite 的使用，<code>独立搭建</code>完整的前端工程环境以及工作流；</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p>学会 Vite <code>插件开发</code>及项目<code>性能优化</code>技巧，独立解决 Vite 使用过程中的核心难题；</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p>深入掌握 Vite 底层用到的打包工具 <code>Esbuild</code> 和 <code>Rollup</code>，学会核心的打包配置和插件开发姿势；</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p>彻底理解 Vite 实现原理，学会 Vite 背后的优秀<code>架构思想</code>和<code>核心实现</code>；</p>\n' +
+          '</li>\n' +
+          '<li>\n' +
+          '<p>从 0 到 1 手写构建工具，掌握前端构建工具的原理。</p>\n' +
+          '</li>\n' +
+          '</ul>\n' +
+          '<h2>适宜人群</h2>\n' +
+          '<ul>\n' +
+          '<li>想要系统学习 Vite，提升竞争力，但没有接触过，也缺少项目经历</li>\n' +
+          '<li>想通过 Vite 作为团队或者个人项目的技术栈，但对 Vite 的核心概念和进阶用法一知半解</li>\n' +
+          '<li>想系统化学习 Rollup 和 Esbuild，理解构建工具的底层原理及源码实现，苦于学习门槛高</li>\n' +
+          '</ul>\n' +
+          '<h2>购买须知</h2>\n' +
+          '<ol>\n' +
+          '<li>本小册为图文形式虚拟内容服务，购买成功概不退款；</li>\n' +
+          '<li>小册于 2022 年 04 月 06 日上线，全部章节现已完成更新；</li>\n' +
+          '<li>购买用户可享有永久阅读权限，可进入小册微信群，与作者互动；</li>\n' +
+          '<li>掘金小册版权归北京北比信息技术有限公司所有，任何机构、媒体、网站或个人未经本网协议授权不得转载、链接、转贴或以其他方式复制发布/发表，违者将依法追究责任；</li>\n' +
+          '<li>在掘金小册阅读过程中，如有任何问题，请邮件联系 <a href="mailto:xiaoce@xitu.io">xiaoce@xitu.io</a></li>\n' +
+          '</ol>',
+        draft_content: '',
+        draft_title: '小册介绍',
+        markdown_content: '',
+        markdown_show: '',
+        is_free: 0,
+        read_time: 320,
+        read_count: 0,
+        comment_count: 0,
+        ctime: 1641716764,
+        mtime: 1641716764,
+        is_update: 0,
+        draft_read_time: 0,
+        vid: '',
+        reading_progress: null
+      },
+      sections: [
+        {
+          id: 85822,
+          section_id: '7050063812044685343',
+          title: '开篇 ：让 Vite 助力你的前端工程化之路',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '开篇 ：让 Vite 助力你的前端工程化之路',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 1,
+          read_time: 510,
+          read_count: 13727,
+          comment_count: 54,
+          ctime: 1641716764,
+          mtime: 1641716764,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7050063812044685343',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 17,
+            has_update: 1,
+            last_rtime: 1663481186,
+            ctime: 1656236051,
+            mtime: 1663811599
+          }
+        },
+        {
+          id: 86674,
+          section_id: '7077834799208988675',
+          title: '模块标准：为什么 ESM 是前端模块化的未来？',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '模块标准：为什么 ESM 是前端模块化的未来？',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 1988,
+          read_count: 8506,
+          comment_count: 37,
+          ctime: 1648023179,
+          mtime: 1648023179,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7077834799208988675',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1663682749,
+            ctime: 1656247440,
+            mtime: 1663811600
+          }
+        },
+        {
+          id: 85932,
+          section_id: '7053634868994899975',
+          title: '快速上手: 如何用 Vite 从零搭建前端项目？',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '快速上手: 如何用 Vite 从零搭建前端项目？',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 1229,
+          read_count: 8666,
+          comment_count: 61,
+          ctime: 1642328835,
+          mtime: 1642328835,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7053634868994899975',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1663682750,
+            ctime: 1656247440,
+            mtime: 1663811599
+          }
+        },
+        {
+          id: 86098,
+          section_id: '7057872229589057576',
+          title: '样式方案：在 Vite 中接入现代化的 CSS 工程化方案',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '样式方案：在 Vite 中接入现代化的 CSS 工程化方案',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 2084,
+          read_count: 8268,
+          comment_count: 84,
+          ctime: 1643517556,
+          mtime: 1643517556,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7057872229589057576',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1663414496,
+            ctime: 1656249641,
+            mtime: 1663811600
+          }
+        },
+        {
+          id: 86100,
+          section_id: '7058853948060336163',
+          title: '代码规范: 如何利用 Lint 工具链来保证代码风格和质量？',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '代码规范: 如何利用 Lint 工具链来保证代码风格和质量？',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 2201,
+          read_count: 7759,
+          comment_count: 94,
+          ctime: 1643539182,
+          mtime: 1643539182,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7058853948060336163',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1663414496,
+            ctime: 1656249660,
+            mtime: 1663811599
+          }
+        },
+        {
+          id: 86101,
+          section_id: '7058854154738860066',
+          title: '静态资源: 如何在 Vite 中处理各种静态资源？',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '静态资源: 如何在 Vite 中处理各种静态资源？',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 1,
+          read_time: 2547,
+          read_count: 8741,
+          comment_count: 60,
+          ctime: 1643634078,
+          mtime: 1643634078,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7058854154738860066',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1663414497,
+            ctime: 1656467574,
+            mtime: 1663811599
+          }
+        },
+        {
+          id: 86102,
+          section_id: '7058947037877764137',
+          title: '预构建: 如何玩转秒级依赖预构建的能力？',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '预构建: 如何玩转秒级依赖预构建的能力？',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 1265,
+          read_count: 6002,
+          comment_count: 63,
+          ctime: 1643727625,
+          mtime: 1643727625,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7058947037877764137',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 6,
+            has_update: 1,
+            last_rtime: 1663903851,
+            ctime: 1656668570,
+            mtime: 1663903655
+          }
+        },
+        {
+          id: 86113,
+          section_id: '7060398408430780431',
+          title: '双引擎架构: Vite 是如何站在巨人的肩膀上实现的？',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '双引擎架构: Vite 是如何站在巨人的肩膀上实现的？',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 799,
+          read_count: 4956,
+          comment_count: 38,
+          ctime: 1643878668,
+          mtime: 1643878668,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7060398408430780431',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1663682752,
+            ctime: 1656854321,
+            mtime: 1663682750
+          }
+        },
+        {
+          id: 86117,
+          section_id: '7060405118163746850',
+          title: '得力的性能推手: Esbuild 功能使用与插件开发实战',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '得力的性能推手: Esbuild 功能使用与插件开发实战',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 3199,
+          read_count: 5287,
+          comment_count: 51,
+          ctime: 1644047375,
+          mtime: 1644047375,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7060405118163746850',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1663682755,
+            ctime: 1656856344,
+            mtime: 1663682752
+          }
+        },
+        {
+          id: 86128,
+          section_id: '7061788120680759331',
+          title: 'Vite 构建基石(上)——Rollup 打包基本概念及使用',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: 'Vite 构建基石(上)——Rollup 打包基本概念及使用',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 1853,
+          read_count: 4338,
+          comment_count: 15,
+          ctime: 1644216084,
+          mtime: 1644216084,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7061788120680759331',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1663297717,
+            ctime: 1656856661,
+            mtime: 1663297715
+          }
+        },
+        {
+          id: 86129,
+          section_id: '7061854307863232547',
+          title: 'Vite 构建基石(下)——深入理解 Rollup 的插件机制',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: 'Vite 构建基石(下)——深入理解 Rollup 的插件机制',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 2368,
+          read_count: 4139,
+          comment_count: 26,
+          ctime: 1644221068,
+          mtime: 1644221068,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7061854307863232547',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1663297721,
+            ctime: 1656925341,
+            mtime: 1663295587
+          }
+        },
+        {
+          id: 86299,
+          section_id: '7065976180125466638',
+          title: '插件开发与实战: 如何开发一个完整的 Vite 插件？',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '插件开发与实战: 如何开发一个完整的 Vite 插件？',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 2912,
+          read_count: 3731,
+          comment_count: 30,
+          ctime: 1645323809,
+          mtime: 1645323809,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7065976180125466638',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1663297724,
+            ctime: 1656990961,
+            mtime: 1663297721
+          }
+        },
+        {
+          id: 86298,
+          section_id: '7065976180020609032',
+          title: 'HMR API 及原理：代码改动后，如何进行毫秒级别的局部更新？',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: 'HMR API 及原理：代码改动后，如何进行毫秒级别的局部更新？',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 1,
+          read_time: 1897,
+          read_count: 3660,
+          comment_count: 19,
+          ctime: 1645321442,
+          mtime: 1645321442,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7065976180020609032',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1658124913,
+            ctime: 1656990965,
+            mtime: 1658122644
+          }
+        },
+        {
+          id: 86300,
+          section_id: '7066601785166659620',
+          title: '代码分割：打包完产物体积太大，怎么拆包？',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '代码分割：打包完产物体积太大，怎么拆包？',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 2005,
+          read_count: 3075,
+          comment_count: 30,
+          ctime: 1645323882,
+          mtime: 1645323882,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7066601785166659620',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 57,
+            has_update: 1,
+            last_rtime: 1663307890,
+            ctime: 1656852612,
+            mtime: 1663297724
+          }
+        },
+        {
+          id: 86301,
+          section_id: '7066611951547187214',
+          title: '语法降级与Polyfill：联合前端编译工具链，消灭低版本浏览器兼容问题',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '语法降级与Polyfill：联合前端编译工具链，消灭低版本浏览器兼容问题',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 1,
+          read_time: 2221,
+          read_count: 3207,
+          comment_count: 38,
+          ctime: 1645323993,
+          mtime: 1645323993,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7066611951547187214',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1658212839,
+            ctime: 1657010153,
+            mtime: 1658212830
+          }
+        },
+        {
+          id: 86302,
+          section_id: '7066612265536978981',
+          title: ' 预渲染：如何借助 Vite 搭建高可用的服务端渲染(SSR)工程？',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: ' 预渲染：如何借助 Vite 搭建高可用的服务端渲染(SSR)工程？',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 1,
+          read_time: 4085,
+          read_count: 2219,
+          comment_count: 22,
+          ctime: 1645324095,
+          mtime: 1645324095,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7066612265536978981',
+            reading_end: 0,
+            reading_progress: 0,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1658137091,
+            ctime: 1658137089,
+            mtime: 1658137089
+          }
+        },
+        {
+          id: 86369,
+          section_id: '7068105121523531806',
+          title: '模块联邦: 如何实现优雅的跨应用代码共享？',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '模块联邦: 如何实现优雅的跨应用代码共享？',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 2450,
+          read_count: 2139,
+          comment_count: 28,
+          ctime: 1645711673,
+          mtime: 1645711673,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7068105121523531806',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 7,
+            has_update: 1,
+            last_rtime: 1660293640,
+            ctime: 1658136482,
+            mtime: 1660293221
+          }
+        },
+        {
+          id: 86370,
+          section_id: '7068105121615314952',
+          title: '再谈 ESM：高阶特性 & Pure ESM 时代',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '再谈 ESM：高阶特性 & Pure ESM 时代',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 1543,
+          read_count: 1714,
+          comment_count: 7,
+          ctime: 1645711754,
+          mtime: 1645711754,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7068105121615314952',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1658137093,
+            ctime: 1658135862,
+            mtime: 1658137093
+          }
+        },
+        {
+          id: 86303,
+          section_id: '7066612739912761352',
+          title: '性能优化:  如何体系化地对 Vite 项目进行性能优化？',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '性能优化:  如何体系化地对 Vite 项目进行性能优化？',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 1790,
+          read_count: 1981,
+          comment_count: 8,
+          ctime: 1645324159,
+          mtime: 1645324159,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7066612739912761352',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 94,
+            has_update: 1,
+            last_rtime: 1658221145,
+            ctime: 1658135858,
+            mtime: 1658220178
+          }
+        },
+        {
+          id: 86307,
+          section_id: '7066614740574797832',
+          title: '配置解析服务：配置文件在 Vite 内部被转换成什么样子了？',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '配置解析服务：配置文件在 Vite 内部被转换成什么样子了？',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 2223,
+          read_count: 1865,
+          comment_count: 9,
+          ctime: 1645325120,
+          mtime: 1645325120,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7066614740574797832',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1663296964,
+            ctime: 1658140136,
+            mtime: 1663296062
+          }
+        },
+        {
+          id: 86309,
+          section_id: '7066617580068274207',
+          title: '依赖预构建：Esbuild 打包功能如何被 Vite 玩出花来？',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '依赖预构建：Esbuild 打包功能如何被 Vite 玩出花来？',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 1,
+          read_time: 3510,
+          read_count: 3012,
+          comment_count: 15,
+          ctime: 1645325164,
+          mtime: 1645325164,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7066617580068274207',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1663297701,
+            ctime: 1658210387,
+            mtime: 1663296973
+          }
+        },
+        {
+          id: 86310,
+          section_id: '7066617652487127077',
+          title: '插件流水线：从整体到局部，理解 Vite 的核心编译能力',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '插件流水线：从整体到局部，理解 Vite 的核心编译能力',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 4236,
+          read_count: 1780,
+          comment_count: 3,
+          ctime: 1645325174,
+          mtime: 1645325174,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: null
+        },
+        {
+          id: 86311,
+          section_id: '7066617769776644126',
+          title: ' 热更新：基于 ESM 的毫秒级 HMR 的实现揭秘',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: ' 热更新：基于 ESM 的毫秒级 HMR 的实现揭秘',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 3246,
+          read_count: 1751,
+          comment_count: 5,
+          ctime: 1645325199,
+          mtime: 1645325199,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7066617769776644126',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1658214504,
+            ctime: 1658214196,
+            mtime: 1658214196
+          }
+        },
+        {
+          id: 86304,
+          section_id: '7066613178028785700',
+          title: '手写 Vite: 实现 no-bundle 开发服务(上)',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '手写 Vite: 实现 no-bundle 开发服务(上)',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 1,
+          read_time: 5486,
+          read_count: 2731,
+          comment_count: 35,
+          ctime: 1645324441,
+          mtime: 1645324441,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: null
+        },
+        {
+          id: 86305,
+          section_id: '7066613452235603982',
+          title: '手写 Vite: 实现 no-bundle 开发服务(下)',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '手写 Vite: 实现 no-bundle 开发服务(下)',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 5567,
+          read_count: 1448,
+          comment_count: 10,
+          ctime: 1645324459,
+          mtime: 1645324459,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7066613452235603982',
+            reading_end: 0,
+            reading_progress: 0,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1658220176,
+            ctime: 1658220174,
+            mtime: 1658220174
+          }
+        },
+        {
+          id: 86306,
+          section_id: '7066614663533821983',
+          title: '手写 Bundler:  实现 JavaScript AST 解析器——词法分析、语义分析',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '手写 Bundler:  实现 JavaScript AST 解析器——词法分析、语义分析',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 3103,
+          read_count: 1294,
+          comment_count: 7,
+          ctime: 1645324758,
+          mtime: 1645324758,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: null
+        },
+        {
+          id: 86413,
+          section_id: '7070419010021490702',
+          title: '手写 Bundler: 实现代码打包、 Tree Shaking ',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '手写 Bundler: 实现代码打包、 Tree Shaking ',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 0,
+          read_time: 6312,
+          read_count: 1436,
+          comment_count: 7,
+          ctime: 1646220146,
+          mtime: 1646220146,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7070419010021490702',
+            reading_end: 0,
+            reading_progress: 16,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1658210387,
+            ctime: 1657001962,
+            mtime: 1658210383
+          }
+        },
+        {
+          id: 87553,
+          section_id: '7120588458145349640',
+          title: '加餐: Vite 3.0 核心更新盘点与分析',
+          user_id: '430664257382462',
+          booklet_id: '7050063811973218341',
+          status: 1,
+          content: '',
+          draft_content: '',
+          draft_title: '加餐: Vite 3.0 核心更新盘点与分析',
+          markdown_content: '',
+          markdown_show: '',
+          is_free: 1,
+          read_time: 889,
+          read_count: 1047,
+          comment_count: 2,
+          ctime: 1657959737,
+          mtime: 1657959737,
+          is_update: 0,
+          draft_read_time: 0,
+          vid: '',
+          reading_progress: {
+            id: 0,
+            booklet_id: '7050063811973218341',
+            user_id: '3289337926283534',
+            section_id: '7120588458145349640',
+            reading_end: 0,
+            reading_progress: 100,
+            reading_position: 0,
+            has_update: 1,
+            last_rtime: 1663296973,
+            ctime: 1658210346,
+            mtime: 1663296969
+          }
+        }
+      ]
+    }
+  },
+  level: 'info',
+  label: 'juejin',
+  timestamp: '2022-09-23 11:32:50.321 AM'
+}

@@ -13,6 +13,7 @@ const { getBookList, postSign, luckDraw, getHappyCardList, touchHappy } =
 const { vipReadTask } = require("./task/index");
 const doTaskHandle = async (isVip) => {
   try {
+
     // 签到
     const res = await postSign();
     if (res.err_no && res.err_no !== 0) {
@@ -45,27 +46,29 @@ mainSchedule.create(async () => {
     redisConnectHandle(doTask);
   } catch (error) {
     console.log(error);
+     emailSend(error);
   }
 });
 
 // 启动临时任务
-// let rule = new schedule.RecurrenceRule();
-// rule.second = [0, 10, 20, 30, 40, 50]; // 每隔 10 秒执行一次
+//  let rule = new schedule.RecurrenceRule();
+//  rule.second = [0, 10, 20, 30, 40, 50]; // 每隔 10 秒执行一次
 
-// let job = schedule.scheduleJob(rule, () => {
-//   try {
-//     const doTask = async (accountList) => {
-//       console.log(accountList[0].name);
-//       for (let i = 0; i < accountList.length; i++) {
-//         initHttpAxios(accountList[i].token);
-//         await doTaskHandle();
-//       }
-//     };
-//     redisConnectHandle(doTask);
-//   } catch (error) {
-//     console.log(error);
-//   }
-// });
+//  let job = schedule.scheduleJob(rule, () => {
+//    try {
+//      const doTask = async (accountList) => {
+//        console.log(accountList[0].name);
+//        for (let i = 0; i < accountList.length; i++) {
+//          initHttpAxios(accountList[i].token);
+//          await doTaskHandle(accountList[i].vip);
+//        }
+//      };
+//      redisConnectHandle(doTask);
+//    } catch (error) {
+//      console.log(error);
+//      emailSend(error);
+//    }
+//  });
 app.listen(port, () => {
   console.log(`app is running at http://127.0.0.1:${port}/`);
 });

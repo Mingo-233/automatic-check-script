@@ -2,7 +2,6 @@ const redis = require("redis"); // 引入 redis
 const dotenv = require("dotenv");
 dotenv.config();
 const redisClient = redis.createClient(6379, "127.0.0.1"); // 创建客户端
-
 // 监听错误信息
 redisClient.on("err", (err) => {
   console.log("redis client error: ", err);
@@ -14,13 +13,16 @@ redisClient.on("ready", function (err) {
 
 const isRequiredPassword = process.env.authPass !== "YES";
 const redisConnectHandle = async (callBack) => {
+
   const option = {};
   if (isRequiredPassword) {
     option.auth_pass = process.env.PASSWORD;
   }
-  await redisClient.connect(6379, "127.0.0.1", option);
+  if(!redisClient.isOpen){
+   await redisClient.connect(6379, "127.0.0.1", option);
+  }
   const accountList = await getAccountList();
-  callBack && callBack(accountList);
+ callBack && callBack(accountList);
 };
 
 const addAccountList = async (data) => {
@@ -44,5 +46,5 @@ const getAccountList = async () => {
 };
 
 // redisClient.quit();
-// redisConnectHandle();
+//redisConnectHandle();
 module.exports = redisConnectHandle;
