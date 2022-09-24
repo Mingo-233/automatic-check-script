@@ -30,7 +30,6 @@ class Http {
     axios.defaults.headers.post["cookie"] = token;
   }
   get(url, params) {
-    console.log("re");
     return new Promise((resolve, reject) => {
       console.log(url);
       axios
@@ -38,7 +37,6 @@ class Http {
         .then((res) => {
           // inputHandler(JSON.stringify(res.data));
           logger.info(res.data);
-          console.log(res.data);
           resolve(res.data);
         })
         .catch((err) => {

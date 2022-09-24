@@ -9,11 +9,11 @@ const redisConnectHandle = require("./redis/app");
 const { initHttpAxios, juejinApi } = require("./api/juejinApi");
 const { getBookList, postSign, luckDraw, getHappyCardList, touchHappy } =
   juejinApi;
+const { sleep } = require("./utils/tools");
 
 const { vipReadTask } = require("./task/index");
 const doTaskHandle = async (isVip) => {
   try {
-
     // 签到
     const res = await postSign();
     if (res.err_no && res.err_no !== 0) {
@@ -25,6 +25,7 @@ const doTaskHandle = async (isVip) => {
     // 抽幸运卡
     touchHappy(data.lotteries[0].history_id);
     isVip && vipReadTask();
+    await sleep(30000);
   } catch (error) {
     console.log(error);
     emailSend(error.message);
@@ -46,7 +47,7 @@ mainSchedule.create(async () => {
     redisConnectHandle(doTask);
   } catch (error) {
     console.log(error);
-     emailSend(error);
+    emailSend(error);
   }
 });
 

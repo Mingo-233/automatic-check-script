@@ -48,7 +48,6 @@ const juejinApi = {
     return h.post(luckDrawUrl);
   },
   touchHappy(id) {
-    console.log(id);
     return h.post(touchHappyUrl, { lottery_history_id: id });
   },
   getHappyCardList() {

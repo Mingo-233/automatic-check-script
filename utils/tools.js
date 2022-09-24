@@ -15,6 +15,14 @@ function circularReference(row) {
   return str;
 }
 
+const sleep = (time = 5000) => {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve();
+    }, time);
+  });
+};
 module.exports = {
   circularReference,
+  sleep,
 };

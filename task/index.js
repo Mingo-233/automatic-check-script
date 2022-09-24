@@ -13,8 +13,6 @@ const taskMethods = {
         for (let i = 0; i < 7; i++) {
           sectionsIds.push(sectionsArr[i].section_id);
         }
-console.log('vip task excute')
-        console.log(sectionsIds);
         sectionsIds.forEach((id) => {
           postReadTask(id);
         });
