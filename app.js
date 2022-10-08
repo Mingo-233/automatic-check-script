@@ -11,7 +11,7 @@ const { getBookList, postSign, luckDraw, getHappyCardList, touchHappy } =
   juejinApi;
 const { sleep } = require("./utils/tools");
 
-const { vipReadTask } = require("./task/index");
+const { vipReadTask, bugFixGame } = require("./task/index");
 const doTaskHandle = async (isVip) => {
   try {
     // 签到
@@ -24,6 +24,8 @@ const doTaskHandle = async (isVip) => {
     const { data } = await getHappyCardList();
     // 抽幸运卡
     touchHappy(data.lotteries[0].history_id);
+    // bug 收集游戏
+    bugFixGame();
     isVip && vipReadTask();
     await sleep(30000);
   } catch (error) {

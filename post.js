@@ -1,4 +1,3 @@
-const { getUserInfoApi, postCollectionsApi } = require("./api/bxhApi.js");
 // const { getBookListApi, postSignApi } = require("./api/juejinApiOld");
 const { initHttpAxios, juejinApi } = require("./api/juejinApi");
 initHttpAxios();
@@ -9,15 +8,12 @@ const {
   getHappyCardList,
   postReadTask,
   getBookSectionOfVite,
+  getBugListGame,
+  postBugCollectGame,
 } = juejinApi;
 // https://www.baoxiaohe.com/api/design/search/popular
-
-let url1 = "https://r4.baoxiaohe.fun/api/design/users/check";
-// getUserInfoApi(url1);
-let url2 = "https://r4.baoxiaohe.fun/api/design/collections";
-
-// postCollectionsApi(url2);
-
+const { bugFixGame } = require("./task/index");
+bugFixGame();
 // getHappyCardList()
 //   .then((res) => {
 //     const { data } = res;
@@ -33,15 +29,15 @@ let url2 = "https://r4.baoxiaohe.fun/api/design/collections";
 
 // postReadTask();
 
-getBookSectionOfVite().then((res) => {
-  let sectionsArr = res.data.sections;
-  let sectionsIds = [];
-  // 每天阅读任务完成数量上限为5
-  for (let i = 0; i < 5; i++) {
-    sectionsIds.push(sectionsArr[i].section_id);
-  }
-  console.log(sectionsIds);
-  sectionsIds.forEach((id) => {
-    postReadTask(id);
-  });
-});
+// getBookSectionOfVite().then((res) => {
+//   let sectionsArr = res.data.sections;
+//   let sectionsIds = [];
+//   // 每天阅读任务完成数量上限为5
+//   for (let i = 0; i < 5; i++) {
+//     sectionsIds.push(sectionsArr[i].section_id);
+//   }
+//   console.log(sectionsIds);
+//   sectionsIds.forEach((id) => {
+//     postReadTask(id);
+//   });
+// });

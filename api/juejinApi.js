@@ -37,6 +37,13 @@ let getSectionDetailsUrl =
 
 let bookSectionOfViteUrl =
   "https://api.juejin.cn/booklet_api/v1/booklet/get?aid=2608&uuid=7131217957565122084&spider=0";
+
+// 未收集的bug
+let bugfixListUrl =
+  "https://api.juejin.cn/user_api/v1/bugfix/not_collect?aid=2608&uuid=7073392340530513442&spider=0";
+
+let collectBugUrl =
+  "https://api.juejin.cn/user_api/v1/bugfix/collect?aid=2608&uuid=7073392340530513442&spider=0";
 const juejinApi = {
   getBookList() {
     return h.post(bookListUrl);
@@ -73,8 +80,18 @@ const juejinApi = {
     //深入浅出vite 小册 id 7050063811973218341;
     return h.post(bookSectionOfViteUrl, { booklet_id: id });
   },
+  // 收集bug活动 获取未收集bug列表
+  getBugListGame() {
+    return h.post(bugfixListUrl, {});
+    // bug_show_type: 1;
+    // bug_time: 1665158400;
+    // bug_type: 12;
+    // is_first: true;
+  },
+  postBugCollectGame({ bug_time, bug_type }) {
+    return h.post(collectBugUrl, { bug_time, bug_type });
+  },
 };
-
 // 要调用方法 必须先执行初始化方法 initHttpAxios;
 module.exports = {
   initHttpAxios,

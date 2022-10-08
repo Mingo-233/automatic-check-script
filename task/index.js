@@ -2,7 +2,12 @@
 
 const { initHttpAxios, juejinApi } = require("../api/juejinApi");
 initHttpAxios();
-const { postReadTask, getBookSectionOfVite } = juejinApi;
+const {
+  postReadTask,
+  getBookSectionOfVite,
+  getBugListGame,
+  postBugCollectGame,
+} = juejinApi;
 const taskMethods = {
   vipReadTask() {
     getBookSectionOfVite()
@@ -15,6 +20,22 @@ const taskMethods = {
         }
         sectionsIds.forEach((id) => {
           postReadTask(id);
+        });
+      })
+      .catch((err) => {
+        throw err;
+      });
+  },
+  bugFixGame() {
+    getBugListGame()
+      .then((res) => {
+        let list = res.data;
+        list.forEach((item) => {
+          let params = {
+            bug_time: item.bug_time,
+            bug_type: item.bug_type,
+          };
+          postBugCollectGame(params);
         });
       })
       .catch((err) => {
