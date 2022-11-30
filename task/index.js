@@ -14,8 +14,8 @@ const taskMethods = {
       .then((res) => {
         let sectionsArr = res.data.sections;
         let sectionsIds = [];
-        // vip3 每天阅读任务完成数量上限为7
-        for (let i = 0; i < 7; i++) {
+        // vip5 每天阅读任务完成数量上限为10
+        for (let i = 0; i < 10; i++) {
           sectionsIds.push(sectionsArr[i].section_id);
         }
         sectionsIds.forEach((id) => {
