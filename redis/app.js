@@ -13,16 +13,19 @@ redisClient.on("ready", function (err) {
 
 const isRequiredPassword = process.env.authPass !== "YES";
 const redisConnectHandle = async (callBack) => {
-
-  const option = {};
-  if (isRequiredPassword) {
-    option.auth_pass = process.env.PASSWORD;
+  try {
+    const option = {};
+    if (isRequiredPassword) {
+      option.auth_pass = process.env.PASSWORD;
+    }
+    if (!redisClient.isOpen) {
+      await redisClient.connect(6379, "127.0.0.1", option);
+    }
+    const accountList = await getAccountList();
+    callBack && callBack(accountList);
+  } catch (error) {
+    throw new Error(error);
   }
-  if(!redisClient.isOpen){
-   await redisClient.connect(6379, "127.0.0.1", option);
-  }
-  const accountList = await getAccountList();
- callBack && callBack(accountList);
 };
 
 const addAccountList = async (data) => {
@@ -36,13 +39,17 @@ const addAccountList = async (data) => {
     });
 };
 const getAccountList = async () => {
-  const result = await redisClient.lRange("jjAccount", 0, 10);
-  let arrList = [];
-  for (const key of result) {
-    arrList.push(JSON.parse(key));
-    //  '{"name":"mingo","token":"sadkjh"}';
+  try {
+    const result = await redisClient.lRange("jjAccount", 0, 10);
+    let arrList = [];
+    for (const key of result) {
+      arrList.push(JSON.parse(key));
+      //  '{"name":"mingo","token":"sadkjh"}';
+    }
+    return arrList;
+  } catch (error) {
+    throw new Error(error);
   }
-  return arrList;
 };
 
 // redisClient.quit();
