@@ -16,7 +16,7 @@ const doTaskHandle = async (isVip) => {
   try {
     // 签到
     const res = await postSign();
-    if (res.err_no && res.err_no !== 0) {
+    if (res.err_no && res.err_no !== 0 && res.err_no !== 15001) {
       throw Error(JSON.stringify(res));
     }
     // 抽奖
@@ -36,7 +36,7 @@ const doTaskHandle = async (isVip) => {
 
 let mainSchedule = new Interval({
   unit_name: "科教兴国定时任务",
-  maintain_time: "10 1 8 * * *", //每天八点执行
+  maintain_time: "10 3 8 * * *", //每天八点执行
 });
 mainSchedule.create(async () => {
   try {
