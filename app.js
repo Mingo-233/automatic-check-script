@@ -15,12 +15,12 @@ const { vipReadTask, bugFixGame } = require("./task/index");
 const doTaskHandle = async (isVip) => {
   try {
     // 签到
-    const res = await postSign();
-    if (res.err_no && res.err_no !== 0 && res.err_no !== 15001) {
-      throw Error(JSON.stringify(res));
-    }
+    // const res = await postSign();
+    // if (res.err_no && res.err_no !== 0 && res.err_no !== 15001) {
+    //   throw Error(JSON.stringify(res));
+    // }
     // 抽奖
-    luckDraw();
+    // luckDraw();
     const { data } = await getHappyCardList();
     // 抽幸运卡
     touchHappy(data.lotteries[0].history_id);
@@ -36,12 +36,13 @@ const doTaskHandle = async (isVip) => {
 
 let mainSchedule = new Interval({
   unit_name: "科教兴国定时任务",
-  maintain_time: "10 3 8 * * *", //每天八点执行
+  maintain_time: "10 3 10 * * *", //每天x点执行
 });
 mainSchedule.create(async () => {
   try {
     const doTask = async (accountList) => {
-      for (let i = 0; i < accountList.length; i++) {
+      // accountList.length;
+      for (let i = 0; i < 1; i++) {
         initHttpAxios(accountList[i].token);
         await doTaskHandle(accountList[i].vip);
       }
