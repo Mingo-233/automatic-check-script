@@ -5,9 +5,10 @@ dotenv.config();
 
 let h = "";
 const initHttpAxios = (token) => {
-  if (!token) {
-    token = process.env.token;
-  }
+  // if (!token) {
+  // token = process.env.token;
+  // throw new Error('token 不存在')
+  // }
   h = new Http(token);
 };
 let bookListUrl =
@@ -43,6 +44,10 @@ let bugfixListUrl =
 
 let collectBugUrl =
   "https://api.juejin.cn/user_api/v1/bugfix/collect?aid=2608&uuid=7073392340530513442&spider=0";
+
+let checkTodayStatusUrl =
+  "https://api.juejin.cn/growth_api/v2/get_today_status?aid=2608&uuid=7131217957565122084&spider=0";
+
 const juejinApi = {
   getBookList() {
     return h.post(bookListUrl);
@@ -90,6 +95,10 @@ const juejinApi = {
   postBugCollectGame({ bug_time, bug_type }) {
     return h.post(collectBugUrl, { bug_time, bug_type });
   },
+  checkTodayStatus() {
+    return h.get(checkTodayStatusUrl);
+  },
+
 };
 // 要调用方法 必须先执行初始化方法 initHttpAxios;
 module.exports = {

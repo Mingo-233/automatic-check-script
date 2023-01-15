@@ -10,22 +10,20 @@ const {
   getBookSectionOfVite,
   getBugListGame,
   postBugCollectGame,
+  checkTodayStatus
 } = juejinApi;
 // https://www.baoxiaohe.com/api/design/search/popular
 const { bugFixGame } = require("./task/index");
-bugFixGame();
-// getHappyCardList()
-//   .then((res) => {
-//     const { data } = res;
-//     console.log(res);
+// bugFixGame();
+checkTodayStatus()
+  .then((res) => {
+    console.log(res);
+    console.log(res.data);
 
-//     touchHappy(data.lotteries[0].history_id).then((res) => {
-//       console.log(res);
-//     });
-//   })
-//   .catch((err) => {
-//     console.log(err);
-//   });
+  })
+  .catch((err) => {
+    console.log(err);
+  });
 
 // postReadTask();
 

@@ -19,7 +19,6 @@ const emailSend = (msg, url) => {
   console.log(msg);
 
   const email = "825740725@qq.com";
-  // const code = String(Math.floor(Math.random() * 1000000)).padEnd(6, "0"); //生成6位随机验证码
   //发送邮件
   const mail = {
     from: `mingo233@qq.com`, // 发件人
@@ -43,4 +42,28 @@ const emailSend = (msg, url) => {
   });
 };
 
+const emailTipSend = (config, url) => {
+  
+  const {email= "825740725@qq.com",subject } = config;
+  //发送邮件
+  const mail = {
+    from: `mingo233@qq.com`, // 发件人
+    subject: "juejin活跃检测提醒", //邮箱主题
+    to: email, //收件人
+    // 邮件内容，用html格式编写
+    html: `
+           <p>Mingo提醒：</p>
+             <p>今天已完成签到，为防止官方活跃检测，建议点击下面链接进入掘金页面</p>
+             <p>https://juejin.cn/</p>
+         `,
+  };
+  nodeMail.sendMail(mail, (err, info) => {
+    if (!err) {
+      console.log("验证发送成功");
+      console.log(info);
+    } else {
+      console.log(err);
+    }
+  });
+};
 module.exports = emailSend;

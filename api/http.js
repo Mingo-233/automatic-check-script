@@ -28,6 +28,7 @@ class Http {
   constructor(token) {
     this.token = token;
     axios.defaults.headers.post["cookie"] = token;
+    axios.defaults.headers.get["cookie"] = token;
   }
   get(url, params) {
     return new Promise((resolve, reject) => {

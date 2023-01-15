@@ -1,12 +1,14 @@
 // 任务方法 （需要调用组合api共同完成，存在接口先后顺序）
 
 const { initHttpAxios, juejinApi } = require("../api/juejinApi");
+const fsBotApp = require("../utils/fsRobot");
 initHttpAxios();
 const {
   postReadTask,
   getBookSectionOfVite,
   getBugListGame,
   postBugCollectGame,
+  checkTodayStatus
 } = juejinApi;
 const taskMethods = {
   vipReadTask() {
@@ -42,6 +44,22 @@ const taskMethods = {
         throw err;
       });
   },
+  /**
+   * 检查是否签到，未签到发送消息通知
+   */
+  checkSign() {
+    checkTodayStatus()
+      .then((res) => {
+        const { data = {} } = res
+        if (!data.check_in_done) {
+          fsBotApp.sendSignTipMsg()
+        }
+      })
+      .catch((err) => {
+        throw err;
+      });
+
+  }
 };
 
 module.exports = taskMethods;

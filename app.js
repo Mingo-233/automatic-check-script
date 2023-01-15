@@ -11,7 +11,7 @@ const { getBookList, postSign, luckDraw, getHappyCardList, touchHappy } =
   juejinApi;
 const { sleep } = require("./utils/tools");
 
-const { vipReadTask, bugFixGame } = require("./task/index");
+const { vipReadTask, bugFixGame, checkSign } = require("./task/index");
 const doTaskHandle = async (isVip) => {
   try {
     // 签到
@@ -35,7 +35,7 @@ const doTaskHandle = async (isVip) => {
 };
 
 let mainSchedule = new Interval({
-  unit_name: "科教兴国定时任务",
+  unit_name: "主进程定时任务",
   maintain_time: "10 3 10 * * *", //每天x点执行
 });
 mainSchedule.create(async () => {
@@ -54,6 +54,33 @@ mainSchedule.create(async () => {
   }
 });
 
+let ScheduleSign = new Interval({
+  unit_name: "签到提醒任务",
+  maintain_time: "10 0 22 * * *",
+});
+ScheduleSign.create(async () => {
+  try {
+    const doTask = async (accountList) => {
+      for (let i = 0; i < 1; i++) {
+        initHttpAxios(accountList[i].token);
+        await doTaskSign();
+      }
+    };
+    redisConnectHandle(doTask);
+  } catch (error) {
+    console.log(error);
+    emailSend(error);
+  }
+});
+const doTaskSign = async () => {
+  try {
+    checkSign()
+    await sleep(30000);
+  } catch (error) {
+    console.log(error);
+    emailSend(error.message);
+  }
+};
 // 启动临时任务
 //  let rule = new schedule.RecurrenceRule();
 //  rule.second = [0, 10, 20, 30, 40, 50]; // 每隔 10 秒执行一次

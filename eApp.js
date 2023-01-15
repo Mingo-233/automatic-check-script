@@ -1,25 +1,35 @@
 //app.js
 const express = require("express");
 const cors = require("cors");
-const nodeMail = require("./nodemailer.js");
+const nodemailer = require("nodemailer");
+
+let nodeMail = nodemailer.createTransport({
+  service: "qq", //类型qq邮箱
+  port: 465, //上文获取的port
+  secure: true, //上文获取的secure
+  auth: {
+    user: "mingo233@qq.com", // 发送方的邮箱，可以选择你自己的qq邮箱
+    pass: "jaixkznfbxgsbdbc", // 上文获取的stmp授权码
+  },
+});
 
 const app = express();
 app.use(express.json());
 app.use(cors());
 const email = "825740725@qq.com";
-const code = String(Math.floor(Math.random() * 1000000)).padEnd(6, "0"); //生成6位随机验证码
 //发送邮件
 const mail = {
   from: `mingo233@qq.com`, // 发件人
-  subject: "验证码", //邮箱主题
+  subject: "测试", //邮箱主题
   to: email, //收件人，这里由post请求传递过来
   // 邮件内容，用html格式编写
   html: `
-             <p>您好！</p>
-             <p>您的验证码是：<strong style="color:orangered;">${code}</strong></p>
-             <p>如果不是您本人操作，请无视此邮件</p>
+             <p>Mingo提醒：</p>
+             <p>今天已完成签到，为防止官方活跃检测，建议点击下面链接进入掘金页面</p>
+             <p>https://juejin.cn/</p>
          `,
 };
+            //  <p>您的验证码是：<strong style="color:orangered;">${code}</strong></p>
 nodeMail.sendMail(mail, (err, info) => {
   if (!err) {
     console.log(info);
@@ -31,6 +41,6 @@ nodeMail.sendMail(mail, (err, info) => {
   }
 });
 
-app.listen(3000, () => {
+app.listen(3001, () => {
   console.log("服务开启成功");
 });
