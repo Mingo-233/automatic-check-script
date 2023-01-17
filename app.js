@@ -34,11 +34,8 @@ const doTaskHandle = async (isVip) => {
   }
 };
 
-let mainSchedule = new Interval({
-  unit_name: "主进程定时任务",
-  maintain_time: "10 3 10 * * *", //每天x点执行
-});
-mainSchedule.create(async () => {
+let scheduleApp = new Interval();
+scheduleApp.create('主进程定时任务', '10 3 10 * * *', () => {
   try {
     const doTask = async (accountList) => {
       // accountList.length;
@@ -54,11 +51,7 @@ mainSchedule.create(async () => {
   }
 });
 
-let ScheduleSign = new Interval({
-  unit_name: "签到提醒任务",
-  maintain_time: "10 0 22 * * *",
-});
-ScheduleSign.create(async () => {
+scheduleApp.create('签到提醒任务', '10 0 22 * * *"', () => {
   try {
     const doTask = async (accountList) => {
       for (let i = 0; i < 1; i++) {

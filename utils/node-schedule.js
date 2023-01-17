@@ -1,43 +1,38 @@
 const schedule = require("node-schedule");
 
 class Interval {
-  constructor({ unit_name, maintain_time, last_alarm }) {
-    this.unit_name = unit_name; // 任务名字
-    this.maintain_time = maintain_time; // 定时时间
-    this.last_alarm = last_alarm || ""; // 上一次定时任务名字
+  constructor() {
   }
-
   // 生成新的定时任务
-  async create(callback) {
-    // 终止之前的定时任务
-    if (this.last_alarm !== "") {
-      this.delete(this.last_alarm);
+  create(unit_name, maintain_time, callback) {
+    let isExist = this.findOne(unit_name)
+    if (isExist) {
+      // 若已存在该任务，则先删除
+      this.delete(unit_name)
     }
     schedule.scheduleJob(
-      `${this.unit_name}`,
-      `${this.maintain_time}`,
+      unit_name,
+      maintain_time,
       callback
     );
   }
-
   // 删除定时任务
-  delete() {
-    if (schedule.scheduledJobs[this.unit_name]) {
-      schedule.scheduledJobs[this.unit_name].cancel();
+  delete(unit_name) {
+    if (schedule.scheduledJobs[unit_name]) {
+      schedule.scheduledJobs[unit_name].cancel();
       return true;
     }
     return false;
   }
-
   // 找到一个定时任务
   findOne(name) {
     if (schedule.scheduledJobs[name]) {
       return schedule.scheduledJobs[name];
     } else {
-      throw new Error("未找到任务名");
+      // throw new Error("未找到任务名");
+      return false
     }
   }
-
   // 查看所有的定时任务
   findAll() {
     return schedule.scheduledJobs;
@@ -46,16 +41,23 @@ class Interval {
 
 // 定时任务
 
-// let a = new Interval({
-//   unit_name: "自动分发任务 0 0 12 * * *",
-//   maintain_time: "10 * * * * *",
-//   //   last_alarm: "自动分发任务 0 0 12 * * *",
-// });
-// a.create(async () => {
-//   // 写入你自己想在定时任务触发的时候，想要执行的函数
-//   console.log("nihao");
-// });
+// let scheduleApp = new Interval();
+// scheduleApp.create(
+//   "自动分发任务 0 0 12 * * *",
+//   "10 * * * * *",
+//   () => {
+//     // 写入你自己想在定时任务触发的时候，想要执行的函数
+//     console.log("nihao")
+//   });
+// scheduleApp.create(
+//   "自动分发任务 0 0 13 * * *",
+//   "10 * * * * *",
+//   () => {
+//     // 写入你自己想在定时任务触发的时候，想要执行的函数
+//     console.log("nihao")
+//   });
 
+// console.log(scheduleApp.findAll());
 // *    *    *    *    *    *
 // ┬    ┬    ┬    ┬    ┬    ┬
 // │    │    │    │    │    │
