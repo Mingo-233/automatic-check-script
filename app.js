@@ -51,7 +51,7 @@ scheduleApp.create('主进程定时任务', '10 3 10 * * *', () => {
   }
 });
 
-scheduleApp.create('签到提醒任务', '10 0 22 * * *"', () => {
+scheduleApp.create('签到提醒任务', '10 0 22 * * *', () => {
   try {
     const doTask = async (accountList) => {
       for (let i = 0; i < 1; i++) {
