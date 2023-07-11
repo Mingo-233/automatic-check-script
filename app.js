@@ -24,9 +24,16 @@ const doTaskHandle = async (isVip) => {
     const { data } = await getHappyCardList();
     // 抽幸运卡
     touchHappy(data.lotteries[0].history_id);
-    // bug 收集游戏
-    bugFixGame();
-    isVip && vipReadTask();
+    /**
+     * description: bug 收集游戏
+     * TODO: 已被官方禁用
+     */
+    // bugFixGame();
+    /**
+     * description: vip任务
+     * TODO: 已被官方禁用
+     */
+    // isVip && vipReadTask();
     await sleep(30000);
   } catch (error) {
     console.log(error);
