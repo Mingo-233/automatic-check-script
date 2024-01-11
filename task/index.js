@@ -1,7 +1,8 @@
 // 任务方法 （需要调用组合api共同完成，存在接口先后顺序）
 
 const { initHttpAxios, juejinApi } = require("../api/juejinApi");
-const fsBotApp = require("../utils/fsRobot");
+// const fsBotApp = require("../utils/fsRobot");
+const dayBotApp = require("../utils/dayApiRobot");
 initHttpAxios();
 const {
   postReadTask,
@@ -52,7 +53,8 @@ const taskMethods = {
       .then((res) => {
         const { data = {} } = res
         if (!data.check_in_done) {
-          fsBotApp.sendSignTipMsg()
+          // fsBotApp.sendSignTipMsg()
+          dayBotApp.sendSignTipMsg()
         }
       })
       .catch((err) => {
