@@ -5,13 +5,18 @@ const port = 3000;
 const Interval = require("./utils/node-schedule");
 const schedule = require("node-schedule");
 const emailSend = require("./utils/emailSend");
-const redisConnectHandle = require("./redis/app");
+// const redisConnectHandle = require("./redis/app");
 const { initHttpAxios, juejinApi } = require("./api/juejinApi");
 const { getBookList, postSign, luckDraw, getHappyCardList, touchHappy } =
   juejinApi;
 const { sleep } = require("./utils/tools");
 
 const { vipReadTask, bugFixGame, checkSign } = require("./task/index");
+const AccountList = [{
+  name: 'mingo',
+  vip: false,
+  token: process.env.token
+}]
 const doTaskHandle = async (isVip) => {
   try {
     // 签到
@@ -45,13 +50,12 @@ let scheduleApp = new Interval();
 scheduleApp.create('主进程定时任务', '10 3 10 * * *', () => {
   try {
     const doTask = async (accountList) => {
-      // accountList.length;
       for (let i = 0; i < 1; i++) {
         initHttpAxios(accountList[i].token);
         await doTaskHandle(accountList[i].vip);
       }
     };
-    redisConnectHandle(doTask);
+    doTask(AccountList)
   } catch (error) {
     console.log(error);
     emailSend(error);
@@ -66,7 +70,7 @@ scheduleApp.create('签到提醒任务', '10 0 22 * * *', () => {
         await doTaskSign();
       }
     };
-    redisConnectHandle(doTask);
+    doTask(AccountList)
   } catch (error) {
     console.log(error);
     emailSend(error);

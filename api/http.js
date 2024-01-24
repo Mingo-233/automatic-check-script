@@ -37,7 +37,10 @@ class Http {
         .get(url, { params })
         .then((res) => {
           // inputHandler(JSON.stringify(res.data));
-          logger.info(res.data);
+          logger.info({
+            url: url,
+            ...res.data,
+          });
           resolve(res.data);
         })
         .catch((err) => {
@@ -52,7 +55,10 @@ class Http {
         .post(url, params)
         .then((res) => {
           // inputHandler(JSON.stringify(res.data));
-          logger.info(res.data);
+          logger.info({
+            url: url,
+            ...res.data,
+          });
           // emailSend(JSON.stringify(res.data));
           resolve({ ...res.data, url });
         })

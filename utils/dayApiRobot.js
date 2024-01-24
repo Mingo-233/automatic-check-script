@@ -19,8 +19,8 @@ module.exports = fsBotApp
 
 // 调试
 // let fsBot = new FsBot()
-fsBotApp.sendSignTipMsg().then(res => {
-    console.log(res);
-}).catch(err => {
-    console.log('err', err);
-})
+// fsBotApp.sendSignTipMsg().then(res => {
+//     console.log(res);
+// }).catch(err => {
+//     console.log('err', err);
+// })
