@@ -4,8 +4,7 @@ const dotenv = require("dotenv");
 dotenv.config();
 const app = new express();
 const port = 3000;
-const Interval = require("./utils/node-schedule");
-const schedule = require("node-schedule");
+const { scheduleTask } = require("./utils/schedule");
 const emailSend = require("./utils/emailSend");
 // const redisConnectHandle = require("./redis/app");
 const { initHttpAxios, juejinApi } = require("./api/juejinApi");
@@ -47,9 +46,8 @@ const doTaskHandle = async (isVip) => {
     emailSend(error.message);
   }
 };
-
-let scheduleApp = new Interval();
-scheduleApp.create('主进程定时任务', '10 3 10 * * *', () => {
+// 主进程任务
+function mainTask() {
   try {
     const doTask = async (accountList) => {
       for (let i = 0; i < 1; i++) {
@@ -62,9 +60,9 @@ scheduleApp.create('主进程定时任务', '10 3 10 * * *', () => {
     console.log(error);
     emailSend(error);
   }
-});
-
-scheduleApp.create('签到提醒任务', '10 0 22 * * *', () => {
+}
+// 签到提醒任务
+function checkAlertTask() {
   try {
     const doTask = async (accountList) => {
       for (let i = 0; i < 1; i++) {
@@ -77,7 +75,9 @@ scheduleApp.create('签到提醒任务', '10 0 22 * * *', () => {
     console.log(error);
     emailSend(error);
   }
-});
+}
+
+
 const doTaskSign = async () => {
   try {
     checkSign()
@@ -87,25 +87,11 @@ const doTaskSign = async () => {
     emailSend(error.message);
   }
 };
-// 启动临时任务
-//  let rule = new schedule.RecurrenceRule();
-//  rule.second = [0, 10, 20, 30, 40, 50]; // 每隔 10 秒执行一次
 
-//  let job = schedule.scheduleJob(rule, () => {
-//    try {
-//      const doTask = async (accountList) => {
-//        console.log(accountList[0].name);
-//        for (let i = 0; i < accountList.length; i++) {
-//          initHttpAxios(accountList[i].token);
-//          await doTaskHandle(accountList[i].vip);
-//        }
-//      };
-//      redisConnectHandle(doTask);
-//    } catch (error) {
-//      console.log(error);
-//      emailSend(error);
-//    }
-//  });
+
+scheduleTask(mainTask, 10, 0, 10)
+scheduleTask(checkAlertTask, 22, 0, 20)
+
 app.listen(port, () => {
   console.log(`app is running at http://127.0.0.1:${port}/`);
 });

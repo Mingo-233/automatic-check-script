@@ -1,6 +1,8 @@
 const axios = require("axios");
-const emailSend = require("../utils/emailSend");
-const { circularReference } = require("../utils/tools");
+const { getCurrentDateTime } = require("../utils/time");
+
+// const emailSend = require("../utils/emailSend");
+// const { circularReference } = require("../utils/tools");
 const logger = require("../utils/winston");
 // const inputHandler = require("../ioTxt");
 // axios.defaults.timeout = 10000;
@@ -36,8 +38,9 @@ class Http {
       axios
         .get(url, { params })
         .then((res) => {
-          // inputHandler(JSON.stringify(res.data));
+          const time = getCurrentDateTime("Asia/Shanghai");
           logger.info({
+            date: `${time.year}-${time.month}-${time.day} ${time.hour}:${time.minute}:${time.second}`,
             url: url,
             ...res.data,
           });
@@ -54,8 +57,9 @@ class Http {
       axios
         .post(url, params)
         .then((res) => {
-          // inputHandler(JSON.stringify(res.data));
+          const time = getCurrentDateTime("Asia/Shanghai");
           logger.info({
+            date: `${time.year}-${time.month}-${time.day} ${time.hour}:${time.minute}:${time.second}`,
             url: url,
             ...res.data,
           });
